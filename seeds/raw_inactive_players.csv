@@ -1,0 +1,561 @@
+game_id,player_id,first_name,last_name,jersey_num,team_id,team_city,team_name,team_abbreviation
+29600034,184,Bobby,Phills,14,1610612739,Cleveland,Cavaliers,CLE
+29600034,781,Will,Perdue,41,1610612759,San Antonio,Spurs,SAS
+29600132,120,Steven,Smith,8,1610612737,Atlanta,Hawks,ATL
+29600203,698,Eddie,Johnson,8,1610612754,Indiana,Pacers,IND
+29600213,32,Clifford,Rozier,44,1610612753,Orlando,Magic,ORL
+29600227,440,Zan,Tabak,3,1610612761,Toronto,Raptors,TOR
+29600267,914,Stanley,Roberts,53,1610612746,Los Angeles,Clippers,LAC
+29600278,291,Ed,Pinckney,54,1610612748,Miami,Heat,MIA
+29600335,420,Jayson,Williams,55,1610612751,New Jersey,Nets,NJN
+29600335,762,Shawn,Bradley,45,1610612751,New Jersey,Nets,NJN
+29600352,93,Hubert,Davis,44,1610612761,Toronto,Raptors,TOR
+29600387,85,Brent,Price,20,1610612745,Houston,Rockets,HOU
+29600467,1108,Tony,Farmer,4,1610612748,Miami,Heat,MIA
+29600471,238,Tyrone,Hill,32,1610612739,Cleveland,Cavaliers,CLE
+29600505,770,Mark,West,41,1610612739,Cleveland,Cavaliers,CLE
+29600556,199,Reggie,Williams,7,1610612751,New Jersey,Nets,NJN
+29600566,697,Fred,Hoiberg,20,1610612754,Indiana,Pacers,IND
+29600593,168,Chris,Mills,24,1610612739,Cleveland,Cavaliers,CLE
+29600593,177,Muggsy,Bogues,1,1610612766,Charlotte,Hornets,CHH
+29600621,121,Patrick,Ewing,33,1610612752,New York,Knicks,NYK
+29600642,934,Derrick,Coleman,44,1610612755,Philadelphia,76ers,PHI
+29600735,984,Steve,Hamer,52,1610612738,Boston,Celtics,BOS
+29600782,997,Chris,Robinson,5,1610612763,Vancouver,Grizzlies,VAN
+29600821,770,Mark,West,52,1610612739,Cleveland,Cavaliers,CLE
+29600821,65,Greg,Minor,48,1610612738,Boston,Celtics,BOS
+29600821,244,Dee,Brown,48,1610612738,Boston,Celtics,BOS
+29600873,770,Mark,West,41,1610612739,Cleveland,Cavaliers,CLE
+29600953,971,Mark,Hendrickson,14,1610612755,Philadelphia,76ers,PHI
+29600961,168,Chris,Mills,50,1610612739,Cleveland,Cavaliers,CLE
+29600961,210,Terrell,Brandon,48,1610612739,Cleveland,Cavaliers,CLE
+29601032,234,Khalid,Reeves,6,1610612742,Dallas,Mavericks,DAL
+29601032,955,Samaki,Walker,52,1610612742,Dallas,Mavericks,DAL
+29601073,1381,John,Long,50,1610612761,Toronto,Raptors,TOR
+29601087,238,Tyrone,Hill,32,1610612739,Cleveland,Cavaliers,CLE
+29601087,380,Tony,Smith,34,1610612766,Charlotte,Hornets,CHH
+29601087,209,Dell,Curry,30,1610612766,Charlotte,Hornets,CHH
+29601139,291,Ed,Pinckney,54,1610612748,Miami,Heat,MIA
+29601156,216,Brian,Shaw,50,1610612753,Orlando,Magic,ORL
+29601156,938,Rony,Seikaly,32,1610612753,Orlando,Magic,ORL
+29700002,1496,Keith,Van Horn,52,1610612751,New Jersey,Nets,NJN
+29700068,682,Bob,Sura,3,1610612739,Cleveland,Cavaliers,CLE
+29700142,358,Anfernee,Hardaway,1,1610612753,Orlando,Magic,ORL
+29700252,997,Chris,Robinson,5,1610612763,Vancouver,Grizzlies,VAN
+29700282,348,Mitchell,Butler,6,1610612739,Cleveland,Cavaliers,CLE
+29700321,348,Mitchell,Butler,6,1610612739,Cleveland,Cavaliers,CLE
+29700328,917,Jack,Haley,54,1610612751,New Jersey,Nets,NJN
+29700345,348,Mitchell,Butler,6,1610612739,Cleveland,Cavaliers,CLE
+29700362,348,Mitchell,Butler,6,1610612739,Cleveland,Cavaliers,CLE
+29700362,356,Chris,Morris,34,1610612762,Utah,Jazz,UTA
+29700372,1444,Lawrence,Funderburke,51,1610612758,Sacramento,Kings,SAC
+29700398,355,Vincent,Askew,17,1610612757,Portland,Trail Blazers,POR
+29700412,348,Mitchell,Butler,6,1610612739,Cleveland,Cavaliers,CLE
+29700412,469,Jamal,Mashburn,24,1610612748,Miami,Heat,MIA
+29700441,208,Sam,Cassell,10,1610612751,New Jersey,Nets,NJN
+29700491,1005,Walt,Williams,42,1610612761,Toronto,Raptors,TOR
+29700541,1512,Chris,Anstey,11,1610612742,Dallas,Mavericks,DAL
+29700544,1128,Stephen,Howard,44,1610612760,Seattle,SuperSonics,SEA
+29700546,1086,Joe,Stephens,41,1610612745,Houston,Rockets,HOU
+29700582,770,Mark,West,41,1610612754,Indiana,Pacers,IND
+29700591,770,Mark,West,41,1610612754,Indiana,Pacers,IND
+29700596,1128,Stephen,Howard,44,1610612760,Seattle,SuperSonics,SEA
+29700640,1507,Derek,Anderson,23,1610612739,Cleveland,Cavaliers,CLE
+29700651,1526,James,Cotton,4,1610612760,Seattle,SuperSonics,SEA
+29700655,339,Tom,Gugliotta,24,1610612750,Minnesota,Timberwolves,MIN
+29700672,82,Bill,Wennington,34,1610612741,Chicago,Bulls,CHI
+29700684,1080,Henry,James,32,1610612739,Cleveland,Cavaliers,CLE
+29700694,1528,Bubba,Wells,35,1610612742,Dallas,Mavericks,DAL
+29700726,1513,Scot,Pollard,31,1610612765,Detroit,Pistons,DET
+29700729,54,Dickey,Simpkins,8,1610612744,Golden State,Warriors,GSW
+29700767,963,Dontae',Jones,13,1610612738,Boston,Celtics,BOS
+29700780,1110,Mark,Strickland,30,1610612748,Miami,Heat,MIA
+29700847,718,Gary,Trent,33,1610612761,Toronto,Raptors,TOR
+29700847,1519,John,Thomas,12,1610612761,Toronto,Raptors,TOR
+29700893,1080,Henry,James,32,1610612739,Cleveland,Cavaliers,CLE
+29700913,1080,Henry,James,32,1610612739,Cleveland,Cavaliers,CLE
+29700913,240,Brooks,Thompson,7,1610612752,New York,Knicks,NYK
+29700913,164,Chris,Childs,1,1610612752,New York,Knicks,NYK
+29700938,753,Randy,Brown,1,1610612741,Chicago,Bulls,CHI
+29701028,140,Donald,Royal,5,1610612766,Charlotte,Hornets,CHH
+29701041,98,Nick,Anderson,25,1610612753,Orlando,Magic,ORL
+29701064,431,Shawn,Kemp,4,1610612739,Cleveland,Cavaliers,CLE
+29701064,1035,Shawnelle,Scott,44,1610612739,Cleveland,Cavaliers,CLE
+29701064,958,Vitaly,Potapenko,52,1610612739,Cleveland,Cavaliers,CLE
+29701064,109,Robert,Horry,5,1610612747,Los Angeles,Lakers,LAL
+29701064,916,Corie,Blount,43,1610612747,Los Angeles,Lakers,LAL
+29701066,223,Bill,Curley,15,1610612750,Minnesota,Timberwolves,MIN
+29701079,1508,Maurice,Taylor,23,1610612746,Los Angeles,Clippers,LAC
+29701079,915,Rodney,Rogers,54,1610612746,Los Angeles,Clippers,LAC
+29701109,1507,Derek,Anderson,23,1610612739,Cleveland,Cavaliers,CLE
+29701143,72,Kenny,Anderson,7,1610612738,Boston,Celtics,BOS
+29701174,1526,James,Cotton,4,1610612760,Seattle,SuperSonics,SEA
+29800031,1506,Austin,Croshere,44,1610612754,Indiana,Pacers,IND
+29800031,365,Derrick,McKey,9,1610612754,Indiana,Pacers,IND
+29800054,781,Will,Perdue,41,1610612759,San Antonio,Spurs,SAS
+29800133,445,Wesley,Person,1,1610612739,Cleveland,Cavaliers,CLE
+29800159,156,Antoine,Carr,55,1610612745,Houston,Rockets,HOU
+29800156,445,Wesley,Person,1,1610612739,Cleveland,Cavaliers,CLE
+29800197,1510,Brevin,Knight,12,1610612739,Cleveland,Cavaliers,CLE
+29800215,1510,Brevin,Knight,12,1610612739,Cleveland,Cavaliers,CLE
+29800230,679,Jason,Caffey,21,1610612744,Golden State,Warriors,GSW
+29800229,1801,Jonathan,Kerner,52,1610612753,Orlando,Magic,ORL
+29800243,1801,Jonathan,Kerner,52,1610612753,Orlando,Magic,ORL
+29800310,1507,Derek,Anderson,23,1610612739,Cleveland,Cavaliers,CLE
+29800328,23,Dennis,Rodman,73,1610612747,Los Angeles,Lakers,LAL
+29800367,1507,Derek,Anderson,23,1610612739,Cleveland,Cavaliers,CLE
+29800367,962,Walter,McCarty,0,1610612738,Boston,Celtics,BOS
+29800370,371,Terry,Mills,6,1610612748,Miami,Heat,MIA
+29800407,371,Terry,Mills,6,1610612748,Miami,Heat,MIA
+29800476,1731,Tyronn,Lue,10,1610612747,Los Angeles,Lakers,LAL
+29800555,979,Jermaine,O'Neal,5,1610612757,Portland,Trail Blazers,POR
+29800560,328,Rick,Mahorn,4,1610612755,Philadelphia,76ers,PHI
+29800572,916,Corie,Blount,44,1610612739,Cleveland,Cavaliers,CLE
+29800572,934,Derrick,Coleman,44,1610612766,Charlotte,Hornets,CHH
+29800613,55,Marty,Conlon,40,1610612748,Miami,Heat,MIA
+29800643,431,Shawn,Kemp,4,1610612739,Cleveland,Cavaliers,CLE
+29800658,1526,James,Cotton,4,1610612760,Seattle,SuperSonics,SEA
+29800682,1820,Kelly,McCarty,11,1610612743,Denver,Nuggets,DEN
+29800678,431,Shawn,Kemp,4,1610612739,Cleveland,Cavaliers,CLE
+29800678,916,Corie,Blount,44,1610612739,Cleveland,Cavaliers,CLE
+29800692,916,Corie,Blount,44,1610612739,Cleveland,Cavaliers,CLE
+29800692,431,Shawn,Kemp,4,1610612739,Cleveland,Cavaliers,CLE
+29800692,895,Tyrone,Corbin,33,1610612737,Atlanta,Hawks,ATL
+29800712,1743,Bruno,Sundov,40,1610612742,Dallas,Mavericks,DAL
+29900082,445,Wesley,Person,32,1610612739,Cleveland,Cavaliers,CLE
+29900096,456,Chuck,Person,52,1610612760,Seattle,SuperSonics,SEA
+29900111,221,Clar.,Weatherspoon,51,1610612748,Miami,Heat,MIA
+29900118,1953,Lazaro,Borrell,49,1610612760,Seattle,SuperSonics,SEA
+29900118,1937,Tim,Young,53,1610612744,Golden State,Warriors,GSW
+29900139,95,Mark,Bryant,32,1610612739,Cleveland,Cavaliers,CLE
+29900139,198,Danny,Ferry,51,1610612739,Cleveland,Cavaliers,CLE
+29900148,672,Matt,Bullard,53,1610612745,Houston,Rockets,HOU
+29900155,198,Danny,Ferry,51,1610612739,Cleveland,Cavaliers,CLE
+29900155,95,Mark,Bryant,32,1610612739,Cleveland,Cavaliers,CLE
+29900182,1742,Shammond,Williams,32,1610612760,Seattle,SuperSonics,SEA
+29900186,1892,Trajan,Langdon,50,1610612739,Cleveland,Cavaliers,CLE
+29900205,1065,Erick,Strickland,50,1610612742,Dallas,Mavericks,DAL
+29900205,123,Robert,Pack,49,1610612742,Dallas,Mavericks,DAL
+29900205,1872,Randell,Jackson,52,1610612742,Dallas,Mavericks,DAL
+29900217,280,Felton,Spencer,49,1610612759,San Antonio,Spurs,SAS
+29900223,1844,Fred,Vinson,50,1610612760,Seattle,SuperSonics,SEA
+29900265,1882,Elton,Brand,52,1610612741,Chicago,Bulls,CHI
+29900265,441,Lamond,Murray,51,1610612739,Cleveland,Cavaliers,CLE
+29900285,95,Mark,Bryant,32,1610612739,Cleveland,Cavaliers,CLE
+29900301,198,Danny,Ferry,51,1610612739,Cleveland,Cavaliers,CLE
+29900301,958,Vitaly,Potapenko,53,1610612738,Boston,Celtics,BOS
+29900350,198,Danny,Ferry,51,1610612739,Cleveland,Cavaliers,CLE
+29900365,95,Mark,Bryant,32,1610612739,Cleveland,Cavaliers,CLE
+29900365,1510,Brevin,Knight,49,1610612739,Cleveland,Cavaliers,CLE
+29900377,28,Doug,West,32,1610612763,Vancouver,Grizzlies,VAN
+29900382,244,Dee,Brown,32,1610612761,Toronto,Raptors,TOR
+29900450,168,Chris,Mills,51,1610612744,Golden State,Warriors,GSW
+29900450,317,John,Starks,32,1610612744,Golden State,Warriors,GSW
+29900473,969,Travis,Knight,52,1610612747,Los Angeles,Lakers,LAL
+29900588,445,Wesley,Person,32,1610612739,Cleveland,Cavaliers,CLE
+29900588,255,Grant,Hill,51,1610612765,Detroit,Pistons,DET
+29900585,1559,Adrian,Griffin,52,1610612738,Boston,Celtics,BOS
+29900598,49,Gheorghe,Muresan,55,1610612751,New Jersey,Nets,NJN
+29900616,1906,Tim,James,52,1610612748,Miami,Heat,MIA
+29900631,63,Michael,Smith,51,1610612764,Washington,Wizards,WAS
+29900664,1538,Cedric,Henderson,52,1610612739,Cleveland,Cavaliers,CLE
+29900664,682,Bob,Sura,32,1610612739,Cleveland,Cavaliers,CLE
+29900664,1510,Brevin,Knight,49,1610612739,Cleveland,Cavaliers,CLE
+29900715,31,Lorenzo,Williams,52,1610612764,Washington,Wizards,WAS
+29900707,682,Bob,Sura,32,1610612739,Cleveland,Cavaliers,CLE
+29900722,682,Bob,Sura,32,1610612739,Cleveland,Cavaliers,CLE
+29900722,1510,Brevin,Knight,49,1610612739,Cleveland,Cavaliers,CLE
+29900729,400,Derek,Strong,51,1610612753,Orlando,Magic,ORL
+29900738,457,Andrew,Lang,50,1610612752,New York,Knicks,NYK
+29900751,1510,Brevin,Knight,49,1610612739,Cleveland,Cavaliers,CLE
+29900768,682,Bob,Sura,32,1610612739,Cleveland,Cavaliers,CLE
+29900768,1510,Brevin,Knight,49,1610612739,Cleveland,Cavaliers,CLE
+29900788,1901,Dion,Glover,32,1610612737,Atlanta,Hawks,ATL
+29900866,137,Vernon,Maxwell,32,1610612760,Seattle,SuperSonics,SEA
+29900889,1937,Tim,Young,53,1610612744,Golden State,Warriors,GSW
+29900930,1737,Nazr,Mohammed,49,1610612755,Philadelphia,76ers,PHI
+29900946,1953,Lazaro,Borrell,49,1610612760,Seattle,SuperSonics,SEA
+29900986,1005,Walt,Williams,42,1610612745,Houston,Rockets,HOU
+29900991,258,Brian,Grant,44,1610612757,Portland,Trail Blazers,POR
+29900993,1953,Lazaro,Borrell,11,1610612760,Seattle,SuperSonics,SEA
+29900985,962,Walter,McCarty,0,1610612738,Boston,Celtics,BOS
+29901009,1953,Lazaro,Borrell,11,1610612760,Seattle,SuperSonics,SEA
+29901040,82,Bill,Wennington,7,1610612758,Sacramento,Kings,SAC
+29901050,697,Fred,Hoiberg,20,1610612741,Chicago,Bulls,CHI
+29901177,428,Sherman,Douglas,11,1610612751,New Jersey,Nets,NJN
+29901177,1915,Evan,Eschmeyer,0,1610612751,New Jersey,Nets,NJN
+20000006,1715,Jason,Williams,55,1610612758,Sacramento,Kings,SAC
+20000018,1715,Jason,Williams,55,1610612758,Sacramento,Kings,SAC
+20000089,445,Wesley,Person,1,1610612739,Cleveland,Cavaliers,CLE
+20000098,2061,Dan,Langhi,14,1610612745,Houston,Rockets,HOU
+20000109,692,Andrew,DeClercq,55,1610612753,Orlando,Magic,ORL
+20000105,423,Chris,Gatling,32,1610612739,Cleveland,Cavaliers,CLE
+20000105,462,J.R.,Reid,31,1610612739,Cleveland,Cavaliers,CLE
+20000105,168,Chris,Mills,34,1610612744,Golden State,Warriors,GSW
+20000105,1504,Danny,Fortson,21,1610612744,Golden State,Warriors,GSW
+20000120,2123,Garth,Joseph,32,1610612761,Toronto,Raptors,TOR
+20000127,105,Dan,Majerle,9,1610612748,Miami,Heat,MIA
+20000155,462,J.R.,Reid,31,1610612739,Cleveland,Cavaliers,CLE
+20000155,0,,,32,1610612765,Detroit,Pistons,DET
+20000173,462,J.R.,Reid,31,1610612739,Cleveland,Cavaliers,CLE
+20000173,931,Don,MacLean,7,1610612748,Miami,Heat,MIA
+20000182,26,Luc,Longley,13,1610612752,New York,Knicks,NYK
+20000202,77,Doug,Overton,9,1610612738,Boston,Celtics,BOS
+20000238,238,Tyrone,Hill,40,1610612755,Philadelphia,76ers,PHI
+20000238,1510,Brevin,Knight,12,1610612739,Cleveland,Cavaliers,CLE
+20000285,1510,Brevin,Knight,12,1610612739,Cleveland,Cavaliers,CLE
+20000339,1714,Robert,Traylor,54,1610612739,Cleveland,Cavaliers,CLE
+20000339,935,Bryon,Russell,3,1610612762,Utah,Jazz,UTA
+20000366,961,John,Wallace,45,1610612765,Detroit,Pistons,DET
+20000396,721,Tyus,Edney,2,1610612754,Indiana,Pacers,IND
+20000431,435,Carlos,Rogers,6,1610612745,Houston,Rockets,HOU
+20000445,754,Jim,Jackson,2,1610612739,Cleveland,Cavaliers,CLE
+20000445,1533,Anthony,Johnson,10,1610612739,Cleveland,Cavaliers,CLE
+20000445,1683,Larry,Robinson,20,1610612739,Cleveland,Cavaliers,CLE
+20000445,165,Hakeem,Olajuwon,34,1610612745,Houston,Rockets,HOU
+20000445,1509,Kelvin,Cato,13,1610612745,Houston,Rockets,HOU
+20000477,1723,Matt,Harpring,15,1610612739,Cleveland,Cavaliers,CLE
+20000488,1723,Matt,Harpring,49,1610612739,Cleveland,Cavaliers,CLE
+20000488,2036,Chris,Mihm,32,1610612739,Cleveland,Cavaliers,CLE
+20000539,1544,Chris,Crawford,4,1610612737,Atlanta,Hawks,ATL
+20000543,1505,Tariq,Abdul-Wahad,9,1610612743,Denver,Nuggets,DEN
+20000585,1444,Lawrence,Funderburke,53,1610612758,Sacramento,Kings,SAC
+20000587,1564,Etdrick,Bohannon,41,1610612739,Cleveland,Cavaliers,CLE
+20000587,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20000587,937,Scottie,Pippen,33,1610612757,Portland,Trail Blazers,POR
+20000601,280,Felton,Spencer,50,1610612752,New York,Knicks,NYK
+20000602,1897,Metta,World Peace,15,1610612741,Chicago,Bulls,CHI
+20000602,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20000622,2053,Dalibor,Bagaric,44,1610612741,Chicago,Bulls,CHI
+20000641,441,Lamond,Murray,30,1610612739,Cleveland,Cavaliers,CLE
+20000641,406,Shaquille,O'Neal,34,1610612747,Los Angeles,Lakers,LAL
+20000660,2106,Ruben,Wolkowyski,45,1610612760,Seattle,SuperSonics,SEA
+20000655,441,Lamond,Murray,30,1610612739,Cleveland,Cavaliers,CLE
+20000655,324,Anthony,Peeler,44,1610612750,Minnesota,Timberwolves,MIN
+20000689,2106,Ruben,Wolkowyski,45,1610612760,Seattle,SuperSonics,SEA
+20000700,423,Chris,Gatling,32,1610612739,Cleveland,Cavaliers,CLE
+20000700,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20000706,422,Avery,Johnson,6,1610612759,San Antonio,Spurs,SAS
+20000712,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20000748,2106,Ruben,Wolkowyski,52,1610612760,Seattle,SuperSonics,SEA
+20000755,1918,Obinna,Ekezie,54,1610612764,Washington,Wizards,WAS
+20000758,2037,Jamal,Crawford,1,1610612741,Chicago,Bulls,CHI
+20000758,1500,Ron,Mercer,5,1610612741,Chicago,Bulls,CHI
+20000796,1924,Lee,Nailon,54,1610612766,Charlotte,Hornets,CHH
+20000805,904,Chris,Mullin,17,1610612744,Golden State,Warriors,GSW
+20000810,1924,Lee,Nailon,54,1610612766,Charlotte,Hornets,CHH
+20000823,1924,Lee,Nailon,54,1610612766,Charlotte,Hornets,CHH
+20000833,699,Brent,Barry,31,1610612760,Seattle,SuperSonics,SEA
+20000850,384,Calbert,Cheaney,29,1610612743,Denver,Nuggets,DEN
+20000866,236,Kevin,Edwards,21,1610612763,Vancouver,Grizzlies,VAN
+20000868,1924,Lee,Nailon,54,1610612766,Charlotte,Hornets,CHH
+20000885,1924,Lee,Nailon,54,1610612766,Charlotte,Hornets,CHH
+20000902,1924,Lee,Nailon,54,1610612766,Charlotte,Hornets,CHH
+20000914,1924,Lee,Nailon,54,1610612766,Charlotte,Hornets,CHH
+20000925,2106,Ruben,Wolkowyski,45,1610612760,Seattle,SuperSonics,SEA
+20000954,146,Jud,Buechler,30,1610612765,Detroit,Pistons,DET
+20000970,779,Glen,Rice,41,1610612752,New York,Knicks,NYK
+20000970,913,Larry,Johnson,2,1610612752,New York,Knicks,NYK
+20000986,51,Mahmoud,Abdul-Rauf,1,1610612763,Vancouver,Grizzlies,VAN
+20000990,2106,Ruben,Wolkowyski,45,1610612760,Seattle,SuperSonics,SEA
+20000999,754,Jim,Jackson,2,1610612739,Cleveland,Cavaliers,CLE
+20001030,2106,Ruben,Wolkowyski,45,1610612760,Seattle,SuperSonics,SEA
+20001047,2106,Ruben,Wolkowyski,45,1610612760,Seattle,SuperSonics,SEA
+20001049,924,Anthony,Goldwire,4,1610612743,Denver,Nuggets,DEN
+20001077,902,Bimbo,Coles,50,1610612739,Cleveland,Cavaliers,CLE
+20001112,2040,Jerome,Moiso,5,1610612738,Boston,Celtics,BOS
+20001163,766,David,Wingate,25,1610612760,Seattle,SuperSonics,SEA
+20001166,754,Jim,Jackson,2,1610612739,Cleveland,Cavaliers,CLE
+20001166,948,Marcus,Camby,23,1610612752,New York,Knicks,NYK
+20001166,913,Larry,Johnson,2,1610612752,New York,Knicks,NYK
+20001180,2068,Lavor,Postell,7,1610612752,New York,Knicks,NYK
+20001184,696,Travis,Best,4,1610612754,Indiana,Pacers,IND
+40000007,1444,Lawrence,Funderburke,51,1610612758,Sacramento,Kings,SAC
+40000017,896,Tim,Hardaway,10,1610612748,Miami,Heat,MIA
+40000034,1761,Greg,Buckner,21,1610612742,Dallas,Mavericks,DAL
+20100036,2205,DeSagana,Diop,52,1610612739,Cleveland,Cavaliers,CLE
+20100055,2205,DeSagana,Diop,52,1610612739,Cleveland,Cavaliers,CLE
+20100055,179,Bryant,Stith,20,1610612739,Cleveland,Cavaliers,CLE
+20100111,2205,DeSagana,Diop,52,1610612739,Cleveland,Cavaliers,CLE
+20100111,1917,Wang,Zhi-zhi,16,1610612742,Dallas,Mavericks,DAL
+20100157,953,Lorenzen,Wright,42,1610612763,Memphis,Grizzlies,MEM
+20100171,2213,Kirk,Haston,35,1610612766,Charlotte,Hornets,CHH
+20100182,694,Sam,Mack,4,1610612748,Miami,Heat,MIA
+20100179,1683,Larry,Robinson,25,1610612752,New York,Knicks,NYK
+20100219,2213,Kirk,Haston,35,1610612766,Charlotte,Hornets,CHH
+20100219,2040,Jerome,Moiso,6,1610612766,Charlotte,Hornets,CHH
+20100245,344,Dana,Barros,1,1610612765,Detroit,Pistons,DET
+20100267,962,Walter,McCarty,0,1610612738,Boston,Celtics,BOS
+20100304,1895,William,Avery,5,1610612750,Minnesota,Timberwolves,MIN
+20100322,916,Corie,Blount,40,1610612755,Philadelphia,76ers,PHI
+20100389,441,Lamond,Murray,30,1610612739,Cleveland,Cavaliers,CLE
+20100389,2220,Brandon,Armstrong,1,1610612751,New Jersey,Nets,NJN
+20100389,2030,Kenyon,Martin,6,1610612751,New Jersey,Nets,NJN
+20100388,2040,Jerome,Moiso,6,1610612766,Charlotte,Hornets,CHH
+20100388,2213,Kirk,Haston,35,1610612766,Charlotte,Hornets,CHH
+20100410,441,Lamond,Murray,30,1610612739,Cleveland,Cavaliers,CLE
+20100435,956,Erick,Dampier,50,1610612744,Golden State,Warriors,GSW
+20100474,201,Chris,Dudley,14,1610612757,Portland,Trail Blazers,POR
+20100578,2067,Eddie,House,5,1610612748,Miami,Heat,MIA
+20100602,2294,Charlie,Bell,3,1610612742,Dallas,Mavericks,DAL
+20100615,1499,Tony,Battie,4,1610612738,Boston,Celtics,BOS
+20100636,2230,Maurice,Evans,1,1610612750,Minnesota,Timberwolves,MIN
+20100642,93,Hubert,Davis,24,1610612764,Washington,Wizards,WAS
+20100687,788,Kevin,Willis,43,1610612745,Houston,Rockets,HOU
+20100687,1903,Kenny,Thomas,21,1610612745,Houston,Rockets,HOU
+20100698,209,Dell,Curry,30,1610612761,Toronto,Raptors,TOR
+20100716,2220,Brandon,Armstrong,1,1610612751,New Jersey,Nets,NJN
+20100716,2206,Rodney,White,5,1610612765,Detroit,Pistons,DET
+20100716,2237,Ratko,Varda,44,1610612765,Detroit,Pistons,DET
+20100723,2237,Ratko,Varda,44,1610612765,Detroit,Pistons,DET
+20100748,2052,DeShawn,Stevenson,2,1610612762,Utah,Jazz,UTA
+20100794,1727,Pat,Garrity,8,1610612753,Orlando,Magic,ORL
+20100794,1503,Tracy,McGrady,1,1610612753,Orlando,Magic,ORL
+20100791,681,Donny,Marshall,13,1610612751,New Jersey,Nets,NJN
+20100822,2264,Alvin,Jones,0,1610612755,Philadelphia,76ers,PHI
+20100845,208,Sam,Cassell,10,1610612749,Milwaukee,Bucks,MIL
+20100853,1901,Dion,Glover,5,1610612737,Atlanta,Hawks,ATL
+20100894,238,Tyrone,Hill,32,1610612739,Cleveland,Cavaliers,CLE
+20100956,238,Tyrone,Hill,32,1610612739,Cleveland,Cavaliers,CLE
+20100956,446,Lucious,Harris,12,1610612751,New Jersey,Nets,NJN
+20100974,1559,Adrian,Griffin,7,1610612742,Dallas,Mavericks,DAL
+20100983,1713,Vince,Carter,15,1610612761,Toronto,Raptors,TOR
+20100980,1928,Todd,MacCulloch,11,1610612751,New Jersey,Nets,NJN
+20101018,2223,Samuel,Dalembert,1,1610612755,Philadelphia,76ers,PHI
+20101042,445,Wesley,Person,1,1610612739,Cleveland,Cavaliers,CLE
+20101042,922,Elden,Campbell,5,1610612766,Charlotte,Hornets,CHH
+20101096,1944,Eddie,Robinson,32,1610612741,Chicago,Bulls,CHI
+20101096,891,Charles,Oakley,34,1610612741,Chicago,Bulls,CHI
+20101101,2249,Jamison,Brewer,2,1610612754,Indiana,Pacers,IND
+20101143,1747,Rafer,Alston,11,1610612749,Milwaukee,Bucks,MIL
+20200053,296,Rick,Fox,17,1610612747,Los Angeles,Lakers,LAL
+20200083,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20200109,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20200109,461,Popeye,Jones,54,1610612742,Dallas,Mavericks,DAL
+20200109,1915,Evan,Eschmeyer,42,1610612742,Dallas,Mavericks,DAL
+20200132,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20200174,2432,Tito,Maddox,6,1610612745,Houston,Rockets,HOU
+20200198,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20200198,2043,Mateen,Cleaves,8,1610612758,Sacramento,Kings,SAC
+20200198,978,Peja,Stojakovic,16,1610612758,Sacramento,Kings,SAC
+20200198,1513,Scot,Pollard,31,1610612758,Sacramento,Kings,SAC
+20200219,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20200242,87,Dikembe,Mutombo,55,1610612751,New Jersey,Nets,NJN
+20200242,954,Kerry,Kittles,30,1610612751,New Jersey,Nets,NJN
+20200242,1744,Jerome,James,33,1610612760,Seattle,SuperSonics,SEA
+20200242,1916,Calvin,Booth,52,1610612760,Seattle,SuperSonics,SEA
+20200265,1744,Jerome,James,33,1610612760,Seattle,SuperSonics,SEA
+20200287,1744,Jerome,James,33,1610612760,Seattle,SuperSonics,SEA
+20200309,2036,Chris,Mihm,4,1610612739,Cleveland,Cavaliers,CLE
+20200309,1713,Vince,Carter,15,1610612761,Toronto,Raptors,TOR
+20200309,213,Antonio,Davis,33,1610612761,Toronto,Raptors,TOR
+20200309,2055,Mamadou,N'diaye,32,1610612761,Toronto,Raptors,TOR
+20200337,2413,Juan,Dixon,3,1610612764,Washington,Wizards,WAS
+20200343,238,Tyrone,Hill,32,1610612739,Cleveland,Cavaliers,CLE
+20200344,2256,Ken,Johnson,54,1610612748,Miami,Heat,MIA
+20200364,70,Steve,Kerr,25,1610612759,San Antonio,Spurs,SAS
+20200359,238,Tyrone,Hill,32,1610612739,Cleveland,Cavaliers,CLE
+20200406,2059,Eduardo,Najera,14,1610612742,Dallas,Mavericks,DAL
+20200406,1915,Evan,Eschmeyer,42,1610612742,Dallas,Mavericks,DAL
+20200410,979,Jermaine,O'Neal,7,1610612754,Indiana,Pacers,IND
+20200410,1886,Jonathan,Bender,24,1610612754,Indiana,Pacers,IND
+20200441,2351,Oscar,Torres,18,1610612744,Golden State,Warriors,GSW
+20200442,2425,Robert,Archibald,21,1610612763,Memphis,Grizzlies,MEM
+20200462,72,Kenny,Anderson,17,1610612760,Seattle,SuperSonics,SEA
+20200498,180,John,Crotty,25,1610612743,Denver,Nuggets,DEN
+20200564,2209,Vladimir,Radmanovic,77,1610612760,Seattle,SuperSonics,SEA
+20200575,2209,Vladimir,Radmanovic,77,1610612760,Seattle,SuperSonics,SEA
+20200631,1885,Lamar,Odom,7,1610612746,Los Angeles,Clippers,LAC
+20200642,1504,Danny,Fortson,21,1610612744,Golden State,Warriors,GSW
+20200655,1513,Scot,Pollard,31,1610612758,Sacramento,Kings,SAC
+20200655,185,Chris,Webber,4,1610612758,Sacramento,Kings,SAC
+20200655,699,Brent,Barry,31,1610612760,Seattle,SuperSonics,SEA
+20200698,2470,Smush,Parker,17,1610612739,Cleveland,Cavaliers,CLE
+20200718,1499,Tony,Battie,4,1610612738,Boston,Celtics,BOS
+20200721,1736,Corey,Benjamin,25,1610612737,Atlanta,Hawks,ATL
+20200722,238,Tyrone,Hill,32,1610612739,Cleveland,Cavaliers,CLE
+20200722,693,Joe,Smith,32,1610612750,Minnesota,Timberwolves,MIN
+20200741,2054,Jake,Tsakalidis,25,1610612756,Phoenix,Suns,PHX
+20200781,422,Avery,Johnson,6,1610612742,Dallas,Mavericks,DAL
+20200807,2432,Tito,Maddox,6,1610612745,Houston,Rockets,HOU
+20200816,2432,Tito,Maddox,6,1610612745,Houston,Rockets,HOU
+20200814,2030,Kenyon,Martin,6,1610612751,New Jersey,Nets,NJN
+20200821,2249,Jamison,Brewer,2,1610612754,Indiana,Pacers,IND
+20200842,2436,Flip,Murray,15,1610612760,Seattle,SuperSonics,SEA
+20200839,1853,Anthony,Carter,25,1610612748,Miami,Heat,MIA
+20200851,2470,Smush,Parker,17,1610612739,Cleveland,Cavaliers,CLE
+20200891,42,Monty,Williams,5,1610612755,Philadelphia,76ers,PHI
+20200891,1903,Kenny,Thomas,9,1610612755,Philadelphia,76ers,PHI
+20200891,922,Elden,Campbell,41,1610612760,Seattle,SuperSonics,SEA
+20200893,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20200893,953,Lorenzen,Wright,42,1610612763,Memphis,Grizzlies,MEM
+20200913,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20200913,2067,Eddie,House,5,1610612748,Miami,Heat,MIA
+20200913,1853,Anthony,Carter,25,1610612748,Miami,Heat,MIA
+20200932,1505,Tariq,Abdul-Wahad,9,1610612742,Dallas,Mavericks,DAL
+20200947,168,Chris,Mills,34,1610612744,Golden State,Warriors,GSW
+20200947,1504,Danny,Fortson,21,1610612744,Golden State,Warriors,GSW
+20201007,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20201016,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20201016,168,Chris,Mills,34,1610612744,Golden State,Warriors,GSW
+20201032,1716,Larry,Hughes,20,1610612764,Washington,Wizards,WAS
+20201032,891,Charles,Oakley,34,1610612764,Washington,Wizards,WAS
+20201045,1740,Rashard,Lewis,7,1610612760,Seattle,SuperSonics,SEA
+20201077,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20201077,979,Jermaine,O'Neal,7,1610612754,Indiana,Pacers,IND
+20201099,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20201099,133,David,Wesley,4,1610612740,New Orleans,Hornets,NOH
+20201099,136,P.J.,Brown,42,1610612740,New Orleans,Hornets,NOH
+20201099,1884,Baron,Davis,1,1610612740,New Orleans,Hornets,NOH
+20201115,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20201115,891,Charles,Oakley,34,1610612764,Washington,Wizards,WAS
+20201115,1716,Larry,Hughes,20,1610612764,Washington,Wizards,WAS
+20201153,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20201179,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20201179,1729,Ricky,Davis,31,1610612739,Cleveland,Cavaliers,CLE
+20201179,1713,Vince,Carter,15,1610612761,Toronto,Raptors,TOR
+20201179,1766,Maceo,Baston,14,1610612761,Toronto,Raptors,TOR
+20201179,702,Voshon,Lenard,2,1610612761,Toronto,Raptors,TOR
+20201179,213,Antonio,Davis,33,1610612761,Toronto,Raptors,TOR
+20201179,283,Lindsey,Hunter,11,1610612761,Toronto,Raptors,TOR
+20300130,934,Derrick,Coleman,44,1610612755,Philadelphia,76ers,PHI
+20300130,1903,Kenny,Thomas,9,1610612755,Philadelphia,76ers,PHI
+20300130,299,Glenn,Robinson,31,1610612755,Philadelphia,76ers,PHI
+20300145,915,Rodney,Rogers,54,1610612751,New Jersey,Nets,NJN
+20300270,1897,Metta,World Peace,23,1610612754,Indiana,Pacers,IND
+20300273,2205,DeSagana,Diop,52,1610612739,Cleveland,Cavaliers,CLE
+20300271,2456,Cezary,Trybanski,15,1610612756,Phoenix,Suns,PHX
+20300294,1442,Zeljko,Rebraca,39,1610612765,Detroit,Pistons,DET
+20300300,2240,Gilbert,Arenas,0,1610612764,Washington,Wizards,WAS
+20300348,1956,Ira,Newble,14,1610612739,Cleveland,Cavaliers,CLE
+20300370,699,Brent,Barry,31,1610612760,Seattle,SuperSonics,SEA
+20300405,2201,Eddy,Curry,2,1610612741,Chicago,Bulls,CHI
+20300419,2220,Brandon,Armstrong,1,1610612751,New Jersey,Nets,NJN
+20300424,2257,Ruben,Boumtje-Boumtje,44,1610612757,Portland,Trail Blazers,POR
+20300440,1533,Anthony,Johnson,8,1610612754,Indiana,Pacers,IND
+20300590,980,Zydrunas,Ilgauskas,11,1610612739,Cleveland,Cavaliers,CLE
+20300590,2544,LeBron,James,23,1610612739,Cleveland,Cavaliers,CLE
+20300607,2211,Troy,Murphy,1,1610612744,Golden State,Warriors,GSW
+20300605,2544,LeBron,James,23,1610612739,Cleveland,Cavaliers,CLE
+20300605,2257,Ruben,Boumtje-Boumtje,44,1610612739,Cleveland,Cavaliers,CLE
+20300605,976,Jeff,McInnis,0,1610612739,Cleveland,Cavaliers,CLE
+20300605,1444,Lawrence,Funderburke,51,1610612758,Sacramento,Kings,SAC
+20300623,1903,Kenny,Thomas,9,1610612755,Philadelphia,76ers,PHI
+20300623,1499,Tony,Battie,4,1610612739,Cleveland,Cavaliers,CLE
+20300623,2544,LeBron,James,23,1610612739,Cleveland,Cavaliers,CLE
+20300635,1499,Tony,Battie,4,1610612739,Cleveland,Cavaliers,CLE
+20300647,2430,Carlos,Boozer,1,1610612739,Cleveland,Cavaliers,CLE
+20300647,258,Brian,Grant,44,1610612748,Miami,Heat,MIA
+20300703,2574,Jason,Kapono,24,1610612739,Cleveland,Cavaliers,CLE
+20300703,2416,Kareem,Rush,21,1610612747,Los Angeles,Lakers,LAL
+20300752,2215,Jason,Collins,35,1610612751,New Jersey,Nets,NJN
+20300775,2205,DeSagana,Diop,52,1610612739,Cleveland,Cavaliers,CLE
+20300789,2205,DeSagana,Diop,52,1610612739,Cleveland,Cavaliers,CLE
+20300866,2604,Theron,Smith,0,1610612763,Memphis,Grizzlies,MEM
+20300876,2580,Travis,Hansen,6,1610612737,Atlanta,Hawks,ATL
+20300876,1442,Zeljko,Rebraca,12,1610612737,Atlanta,Hawks,ATL
+20300910,1888,Richard,Hamilton,32,1610612765,Detroit,Pistons,DET
+20300989,976,Jeff,McInnis,0,1610612739,Cleveland,Cavaliers,CLE
+20301008,976,Jeff,McInnis,0,1610612739,Cleveland,Cavaliers,CLE
+20301011,1503,Tracy,McGrady,1,1610612753,Orlando,Magic,ORL
+20301018,2063,Jake,Voskuhl,43,1610612756,Phoenix,Suns,PHX
+20301048,2557,Luke,Ridnour,8,1610612760,Seattle,SuperSonics,SEA
+20301050,2030,Kenyon,Martin,6,1610612751,New Jersey,Nets,NJN
+20301102,956,Erick,Dampier,25,1610612744,Golden State,Warriors,GSW
+20301102,422,Avery,Johnson,6,1610612744,Golden State,Warriors,GSW
+20301171,1883,Steve,Francis,3,1610612745,Houston,Rockets,HOU
+20301171,1749,Cuttino,Mobley,5,1610612745,Houston,Rockets,HOU
+20400006,979,Jermaine,O'Neal,7,1610612754,Indiana,Pacers,IND
+20400063,2571,Leandro,Barbosa,10,1610612756,Phoenix,Suns,PHX
+20400079,2427,Roger,Mason Jr.,31,1610612761,Toronto,Raptors,TOR
+20400094,1504,Danny,Fortson,21,1610612760,Seattle,SuperSonics,SEA
+20400131,2078,Jason,Hart,1,1610612766,Charlotte,Bobcats,CHA
+20400133,2599,Brandon,Hunter,34,1610612753,Orlando,Magic,ORL
+20400197,979,Jermaine,O'Neal,7,1610612754,Indiana,Pacers,IND
+20400197,1533,Anthony,Johnson,8,1610612754,Indiana,Pacers,IND
+20400197,1513,Scot,Pollard,62,1610612754,Indiana,Pacers,IND
+20400197,1536,Stephen,Jackson,1,1610612754,Indiana,Pacers,IND
+20400197,1897,Metta,World Peace,91,1610612754,Indiana,Pacers,IND
+20400225,1743,Bruno,Sundov,14,1610612752,New York,Knicks,NYK
+20400236,1713,Vince,Carter,15,1610612761,Toronto,Raptors,TOR
+20400296,2776,Pape,Sow,9,1610612761,Toronto,Raptors,TOR
+20400322,2561,David,West,30,1610612740,New Orleans,Hornets,NOH
+20400322,2048,Jamaal,Magloire,21,1610612740,New Orleans,Hornets,NOH
+20400343,727,Eric,Snow,20,1610612739,Cleveland,Cavaliers,CLE
+20400361,84,Latrell,Sprewell,8,1610612750,Minnesota,Timberwolves,MIN
+20400376,2546,Carmelo,Anthony,15,1610612743,Denver,Nuggets,DEN
+20400376,1498,Antonio,Daniels,33,1610612760,Seattle,SuperSonics,SEA
+20400384,2454,Junior,Harrington,6,1610612740,New Orleans,Hornets,NOH
+20400384,248,George,Lynch,9,1610612740,New Orleans,Hornets,NOH
+20400384,2365,Chris,Andersen,12,1610612740,New Orleans,Hornets,NOH
+20400457,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20400478,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20400478,2552,Michael,Sweetney,50,1610612752,New York,Knicks,NYK
+20400497,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20400510,389,Toni,Kukoc,7,1610612749,Milwaukee,Bucks,MIL
+20400529,1740,Rashard,Lewis,7,1610612760,Seattle,SuperSonics,SEA
+20400529,2202,Jason,Richardson,23,1610612744,Golden State,Warriors,GSW
+20400543,2402,Dajuan,Wagner,2,1610612739,Cleveland,Cavaliers,CLE
+20400543,1740,Rashard,Lewis,7,1610612760,Seattle,SuperSonics,SEA
+20400559,2403,Nene,Hilario,31,1610612743,Denver,Nuggets,DEN
+20400559,2030,Kenyon,Martin,6,1610612743,Denver,Nuggets,DEN
+20400559,958,Vitaly,Potapenko,9,1610612760,Seattle,SuperSonics,SEA
+20400563,389,Toni,Kukoc,7,1610612749,Milwaukee,Bucks,MIL
+20400583,208,Sam,Cassell,19,1610612750,Minnesota,Timberwolves,MIN
+20400583,1709,Michael,Olowokandi,34,1610612750,Minnesota,Timberwolves,MIN
+20400599,976,Jeff,McInnis,0,1610612739,Cleveland,Cavaliers,CLE
+20400599,2413,Juan,Dixon,3,1610612764,Washington,Wizards,WAS
+20400599,1716,Larry,Hughes,20,1610612764,Washington,Wizards,WAS
+20400615,2760,Anderson,Varejao,17,1610612739,Cleveland,Cavaliers,CLE
+20400615,1899,James,Posey,41,1610612763,Memphis,Grizzlies,MEM
+20400651,2033,Marcus,Fizer,21,1610612749,Milwaukee,Bucks,MIL
+20400651,1496,Keith,Van Horn,44,1610612749,Milwaukee,Bucks,MIL
+20400651,2760,Anderson,Varejao,17,1610612739,Cleveland,Cavaliers,CLE
+20400651,1956,Ira,Newble,14,1610612739,Cleveland,Cavaliers,CLE
+20400651,2544,LeBron,James,23,1610612739,Cleveland,Cavaliers,CLE
+20400657,951,Ray,Allen,34,1610612760,Seattle,SuperSonics,SEA
+20400661,1500,Ron,Mercer,1,1610612751,New Jersey,Nets,NJN
+20400661,2565,Zoran,Planinic,10,1610612751,New Jersey,Nets,NJN
+20400698,2441,Jamal,Sampson,31,1610612766,Charlotte,Bobcats,CHA
+20400698,1751,Jahidi,White,55,1610612766,Charlotte,Bobcats,CHA
+20400693,1956,Ira,Newble,14,1610612739,Cleveland,Cavaliers,CLE
+20400729,1802,Brad,Miller,52,1610612758,Sacramento,Kings,SAC
+20400754,711,Jerry,Stackhouse,42,1610612742,Dallas,Mavericks,DAL
+20400754,2605,Marquis,Daniels,6,1610612742,Dallas,Mavericks,DAL
+20400754,1504,Danny,Fortson,21,1610612760,Seattle,SuperSonics,SEA
+20400746,1956,Ira,Newble,14,1610612739,Cleveland,Cavaliers,CLE
+20400773,1956,Ira,Newble,14,1610612739,Cleveland,Cavaliers,CLE
+20400773,1731,Tyronn,Lue,10,1610612737,Atlanta,Hawks,ATL
+20400773,788,Kevin,Willis,42,1610612737,Atlanta,Hawks,ATL
+20400773,1542,Predrag,Drobnjak,14,1610612737,Atlanta,Hawks,ATL
+20400779,1504,Danny,Fortson,21,1610612760,Seattle,SuperSonics,SEA
+20400782,2033,Marcus,Fizer,21,1610612749,Milwaukee,Bucks,MIL
+20400812,1709,Michael,Olowokandi,34,1610612750,Minnesota,Timberwolves,MIN
+20400830,2412,Jiri,Welsch,44,1610612739,Cleveland,Cavaliers,CLE
+20400844,2760,Anderson,Varejao,17,1610612739,Cleveland,Cavaliers,CLE
+20400844,446,Lucious,Harris,12,1610612739,Cleveland,Cavaliers,CLE
+20400865,922,Elden,Campbell,41,1610612765,Detroit,Pistons,DET
+20400865,2436,Flip,Murray,22,1610612760,Seattle,SuperSonics,SEA
+20400878,2760,Anderson,Varejao,17,1610612739,Cleveland,Cavaliers,CLE
+20400887,255,Grant,Hill,33,1610612753,Orlando,Magic,ORL
+20400909,2750,Pavel,Podkolzin,24,1610612742,Dallas,Mavericks,DAL
+20400913,1504,Danny,Fortson,21,1610612760,Seattle,SuperSonics,SEA
+20400928,2224,Jamaal,Tinsley,11,1610612754,Indiana,Pacers,IND
+20400969,1504,Danny,Fortson,21,1610612760,Seattle,SuperSonics,SEA
+20400969,1744,Jerome,James,13,1610612760,Seattle,SuperSonics,SEA
+20400997,2590,Mo,Williams,25,1610612749,Milwaukee,Bucks,MIL
+20400997,1504,Danny,Fortson,21,1610612760,Seattle,SuperSonics,SEA
+20400997,951,Ray,Allen,34,1610612760,Seattle,SuperSonics,SEA
+20400990,1888,Richard,Hamilton,32,1610612765,Detroit,Pistons,DET
+20401022,2058,Mark,Madsen,35,1610612750,Minnesota,Timberwolves,MIN
+20401036,1504,Danny,Fortson,21,1610612760,Seattle,SuperSonics,SEA
+20401036,324,Anthony,Peeler,8,1610612764,Washington,Wizards,WAS
+20401059,2669,Linton,Johnson,43,1610612759,San Antonio,Spurs,SAS
+20401078,1740,Rashard,Lewis,7,1610612760,Seattle,SuperSonics,SEA
+20401078,1739,Ruben,Patterson,21,1610612757,Portland,Trail Blazers,POR
+20401078,689,Theo,Ratliff,42,1610612757,Portland,Trail Blazers,POR
+20401078,1507,Derek,Anderson,1,1610612757,Portland,Trail Blazers,POR
+20401096,1521,Jacque,Vaughn,11,1610612751,New Jersey,Nets,NJN
+20401130,1740,Rashard,Lewis,7,1610612760,Seattle,SuperSonics,SEA
+20401130,1498,Antonio,Daniels,33,1610612760,Seattle,SuperSonics,SEA
+20401134,693,Joe,Smith,8,1610612749,Milwaukee,Bucks,MIL

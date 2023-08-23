@@ -1,0 +1,551 @@
+person_id,player_name,season,round_number,round_pick,overall_pick,draft_type,team_id,team_city,team_name,team_abbreviation,organization,organization_type,player_profile_flag
+79299,Clifton McNeeley,1947,1,1,1,Draft,1610610031,Pittsburgh,Ironmen,PIT,Texas-El Paso,College/University,0
+78109,Glen Selbo,1947,1,2,2,Draft,1610610035,Toronto,Huskies,HUS,Wisconsin,College/University,1
+76649,Eddie Ehlers,1947,1,3,3,Draft,1610612738,Boston,Celtics,BOS,Purdue,College/University,1
+79302,Walt Dropo,1947,1,4,4,Draft,1610610032,Providence,Steamrollers,PRO,Connecticut,College/University,0
+77048,Dick Holub,1947,1,5,5,Draft,1610612752,New York,Knicks,NYK,Long Island-Brooklyn,College/University,1
+76479,Francis Crossin,1947,1,6,6,Draft,1610612744,Philadelphia,Warriors,PHW,Pennsylvania,College/University,1
+79311,Jack Underman,1947,1,7,7,Draft,1610610034,St. Louis,Bombers,BOM,Ohio State,College/University,0
+77088,Paul Huston,1947,1,8,8,Draft,1610610025,Chicago,Stags,CHS,Ohio State,College/University,1
+77752,Dick O'Keefe,1947,1,9,9,Draft,1610610036,Washington,Capitols,WAS,Santa Clara,College/University,1
+79321,Larry Killick,1947,1,10,10,Draft,1610610024,Baltimore,Bullets,BAL,Vermont,College/University,0
+79314,Wimpy Quinn,1947,0,0,0,Draft,1610610035,Toronto,Huskies,HUS,Oregon,College/University,0
+79315,Bill Burke,1947,0,0,0,Draft,1610610036,Washington,Capitols,WAS,St. Mary's (MD),College/University,0
+79316,Abel Rodriguez,1947,0,0,0,Draft,1610610036,Washington,Capitols,WAS,San Francisco,College/University,0
+79317,Robert Bolyard,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Toledo,College/University,0
+79318,Scotty Hamilton,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,West Virginia,College/University,0
+79319,Hugh Hampton,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,High Point,College/University,0
+79320,Bob Jake,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Vermont,College/University,0
+79322,Charles Raynor,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Houston,College/University,0
+79323,John Rusinko,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Penn State,College/University,0
+78070,Ben Schadler,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Northwestern,College/University,1
+78185,Donald Smith,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Minnesota,College/University,1
+78275,Gene Stump,1947,0,0,0,Draft,1610612738,Boston,Celtics,BOS,DePaul,College/University,1
+77452,John Mandic,1947,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Oregon State,College/University,1
+77462,Saul Mariaschin,1947,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Harvard,College/University,1
+77613,Wat Misaka,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,Utah,College/University,1
+77684,Fred Nagy,1947,0,0,0,Draft,1610610031,Pittsburgh,Ironmen,PIT,Akron,College/University,1
+77686,Paul Napolitano,1947,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,San Francisco,College/University,1
+78344,Jack Tingle,1947,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Kentucky,College/University,1
+78402,Gene Vance,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Illinois,College/University,1
+77853,Andy Phillip,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Illinois,College/University,1
+77867,Jim Pollard,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Stanford,College/University,1
+77938,Joseph Reiser,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,New York University,College/University,1
+77999,Red Rocha,1947,0,0,0,Draft,1610610035,Toronto,Huskies,HUS,Oregon State,College/University,1
+78023,Irv Rothenberg,1947,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Long Island-Brooklyn,College/University,1
+76407,Paul Cloyd,1947,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Wisconsin,College/University,1
+76507,Jimmy Darden,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Denver,College/University,1
+76615,Andy Duncan,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,William & Mary,College/University,1
+76689,Johnny Ezersky,1947,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Rhode Island,College/University,1
+76769,Elmer R. Gainer,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,DePaul,College/University,1
+76773,Harry Gallatin,1947,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Truman State,College/University,1
+79313,Frank Broyles,1947,0,0,0,Draft,1610610035,Toronto,Huskies,HUS,Georgia Tech,College/University,0
+79312,Herb Wilkinson,1947,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Iowa,College/University,0
+77036,"Bear, The Body Hoffman",1947,0,0,0,Draft,1610610035,Toronto,Huskies,HUS,Purdue,College/University,1
+77072,Bob Hubbard,1947,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Springfield,College/University,1
+78650,Matt Zunic,1947,0,0,0,Draft,1610610036,Washington,Capitols,WAS,George Washington,College/University,1
+79278,Bob Alemeida,1947,0,0,0,Draft,1610612738,Boston,Celtics,BOS,,,0
+79279,George Felt,1947,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Northwestern,College/University,0
+79280,John Kelly,1947,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Notre Dame,College/University,0
+79281,George Petrovick,1947,0,0,0,Draft,1610612738,Boston,Celtics,BOS,,,0
+79282,Ralph Bishop,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Washington,College/University,0
+79283,Hank Decker,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,West Texas A&M,College/University,0
+79284,Jack Stone,1947,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Kansas State,College/University,0
+79285,Ray Evans,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,Kansas,College/University,0
+79286,Ed Golub,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,,,0
+79287,Garland Head,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,Texas Tech,College/University,0
+79288,Ron Livingston,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,St. Mary's (CA),College/University,0
+79289,Dan Miller,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,Saint Louis,College/University,0
+79290,Carl Reichert,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,Findlay,College/University,0
+79291,Tom Tomlinson,1947,0,0,0,Draft,1610612752,New York,Knicks,NYK,Southern Methodist,College/University,0
+79292,Norman Butz,1947,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Saint Joseph's,College/University,0
+79293,Jim Kaeding,1947,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,York (PA),College/University,0
+79294,Ed Koffenberger,1947,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Duke,College/University,0
+79295,Bob Alamo,1947,0,0,0,Draft,1610610031,Pittsburgh,Ironmen,PIT,Santa Clara,College/University,0
+79296,George Brown,1947,0,0,0,Draft,1610610031,Pittsburgh,Ironmen,PIT,,,0
+79297,Dick Ives,1947,0,0,0,Draft,1610610031,Pittsburgh,Ironmen,PIT,Iowa,College/University,0
+79298,Herman Knoche,1947,0,0,0,Draft,1610610031,Pittsburgh,Ironmen,PIT,Washington & Jefferson,College/University,0
+79300,Jack Walton,1947,0,0,0,Draft,1610610031,Pittsburgh,Ironmen,PIT,DePaul,College/University,0
+79301,Joe Barry,1947,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,,,0
+79303,Dick Furey,1947,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,St. Thomas (MN),College/University,0
+79304,Bob Joyce,1947,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Bates,College/University,0
+79305,Roy Lipscomb,1947,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,St. Mary's (MD),College/University,0
+79306,John Mills,1947,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Hofstra,College/University,0
+79307,Al Nichols,1947,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Rhode Island,College/University,0
+79308,Jack Knopf,1947,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Louisville,College/University,0
+79309,Bob Kurland,1947,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Oklahoma State,College/University,0
+79310,Bill Strannigan,1947,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Wyoming,College/University,0
+77014,Jack Hewson,1947,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Temple,College/University,1
+76161,Hank Biasatti,1947,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Long Island-Brooklyn,College/University,1
+78353,Andy Tonkovich,1948,1,1,1,Draft,1610610032,Providence,Steamrollers,PRO,Marshall,College/University,1
+79374,George Kok,1948,1,2,2,Draft,1610610029,Indianapolis,Jets,JET,Arkansas,College/University,0
+79327,George Hauptfuhrer,1948,1,3,3,Draft,1610612738,Boston,Celtics,BOS,Harvard,College/University,0
+78076,Dolph Schayes,1948,1,4,4,Draft,1610612752,New York,Knicks,NYK,New York University,College/University,1
+77590,Ed Mikan,1948,1,5,5,Draft,1610610025,Chicago,Stags,CHS,DePaul,College/University,1
+76298,Walter Budko,1948,1,6,6,Draft,1610610024,Baltimore,Bullets,BAL,Columbia,College/University,1
+79351,Robert Gale,1948,1,7,7,Draft,1610610034,St. Louis,Bombers,BOM,Cornell,College/University,0
+78573,Ward Williams,1948,1,8,8,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Indiana,College/University,1
+79378,Chuck Hanger,1948,1,9,9,Draft,1610612747,Minneapolis,Lakers,MNL,California,College/University,0
+78453,Bobby Wanzer,1948,1,10,10,Draft,1610612758,Rochester,Royals,ROC,Seton Hall,College/University,1
+77918,Don Ray,1948,1,11,11,Draft,1610612744,Philadelphia,Warriors,PHW,Western Kentucky,College/University,1
+77713,Jack Nichols,1948,1,12,12,Draft,1610610036,Washington,Capitols,WAS,Washington,College/University,1
+79381,Junior Skogland,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Gustavus Adolphus,College/University,0
+79382,Quentin Stinson,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Southern Illinois,College/University,0
+79380,Bob Lowther,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Louisiana State,College/University,0
+79383,Alex Athas,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Tulane,College/University,0
+79384,Ed Keim,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Niagara,College/University,0
+79379,Ken Jastrow,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Denver,College/University,0
+79377,Cliff Crandall,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Oregon State,College/University,0
+79386,Hank O'Keefe,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Canisius,College/University,0
+79387,Warren Stickel,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Syracuse,College/University,0
+79388,Paul Yesavi,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Niagara,College/University,0
+77529,Mel McGaha,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,Arkansas,College/University,1
+79376,Jack Phoenix,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,Idaho,College/University,0
+77616,Murray Mitchell,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Sam Houston State,College/University,1
+77769,Johnny Orr,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Beloit,College/University,1
+79375,Bob Paxton,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,North Carolina,College/University,0
+77797,Estes Parham,1948,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Texas Wesleyan,College/University,1
+77801,Jack Parkinson,1948,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Kentucky,College/University,1
+77841,Ed Peterson,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,Cornell,College/University,1
+77889,Roy Pugh,1948,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Southern Methodist,College/University,1
+79385,Lionel Melamed,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,City College of New York,College/University,0
+77968,Goebel Ritter,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,Eastern Kentucky,College/University,1
+78012,Kenny Rollins,1948,0,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Kentucky,College/University,1
+76937,Alex Hannum,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,Southern California,College/University,1
+76974,Marshall Hawkins,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Tennessee,College/University,1
+77041,Joe Holland,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Kentucky,College/University,1
+77217,Edwin Kachan,1948,0,0,0,Draft,1610610025,Chicago,Stags,CHS,DePaul,College/University,1
+77226,Leo Katkaveck,1948,0,0,0,Draft,1610610036,Washington,Capitols,WAS,North Carolina State,College/University,1
+77238,Tom Kelly,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,New York University,College/University,1
+77303,Andy Kostecka,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,Georgetown,College/University,1
+77309,Dan Kraus,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Georgetown,College/University,1
+77310,Herb Krautblatt,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Rider,College/University,1
+77317,Leo Kubiak,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Bowling Green,College/University,1
+77425,Ray Lumpp,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,New York University,College/University,1
+77436,Johnny Macknowski,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Seton Hall,College/University,1
+76306,Jack Burmaster,1948,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Illinois,College/University,1
+76359,Jake Carter,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Texas A&M-Commerce,College/University,1
+76414,Jack Coleman,1948,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Louisville,College/University,1
+76438,Bobby Cook,1948,0,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Wisconsin,College/University,1
+76571,John Dillon,1948,0,0,0,Draft,1610610025,Chicago,Stags,CHS,North Carolina,College/University,1
+76711,Arnie Ferrin,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Utah,College/University,1
+76768,Billy Gabor,1948,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Syracuse,College/University,1
+76773,Harry Gallatin,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,Truman State,College/University,1
+76778,Earl Gardner,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,DePauw,College/University,1
+76808,Dee Gibson,1948,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Western Kentucky,College/University,1
+76080,Johnny Bach,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Fordham,College/University,1
+76155,Gene Berce,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,Marquette,College/University,1
+79373,Norman Kohler,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,North Carolina,College/University,0
+79372,Jack Coleman,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,Louisiana State,College/University,0
+78141,Dick Shrider,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,Ohio,College/University,1
+78225,Odie Spears,1948,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Western Kentucky,College/University,1
+78434,Brady Walker,1948,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Brigham Young,College/University,1
+78483,Dick Wehr,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,Rice,College/University,1
+78521,Murray Wier,1948,0,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Iowa,College/University,1
+78525,D.C. Wilcutt,1948,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Saint Louis,College/University,1
+79324,Norman Carey,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Oregon State,College/University,0
+79325,Bob Curran,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Holy Cross,College/University,0
+79326,Neil Dooley,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Colgate,College/University,0
+79328,Jack Hauser,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Denver,College/University,0
+79329,Guinn Phillips,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Texas Wesleyan,College/University,0
+79330,Ray Wehde,1948,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Iowa State,College/University,0
+79331,Mickey Marty,1948,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Loras,College/University,0
+79332,Ed Mills,1948,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Wisconsin,College/University,0
+79333,Don Reagan,1948,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Murray State,College/University,0
+79334,Joe Shafer,1948,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Wheaton (IL),College/University,0
+79335,Fred Weber,1948,0,0,0,Draft,1610610025,Chicago,Stags,CHS,Siena,College/University,0
+79336,Leland Byrd,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,West Virginia,College/University,0
+79337,Keith Grimes,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,East Central,College/University,0
+79338,John Stanisch,1948,0,0,0,Draft,1610612752,New York,Knicks,NYK,California-Los Angeles,College/University,0
+79339,William Brown,1948,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Maryland,College/University,0
+79340,Hugh Compton,1948,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Louisville,College/University,0
+79341,Joe Nelson,1948,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Brigham Young,College/University,0
+79342,Clint Pace,1948,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Pepperdine,College/University,0
+79343,Tom Short,1948,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Kansas Wesleyan,College/University,0
+79344,Joe Wahl,1948,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Akron,College/University,0
+79345,Andy Wolfe,1948,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,California,College/University,0
+79346,A. L. Bennett,1948,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Oklahoma State,College/University,0
+79347,Ed Faber,1948,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Trinity (TX),College/University,0
+79348,Verl Heap,1948,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Arizona State,College/University,0
+79349,Otto Snellbacher,1948,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Kansas,College/University,0
+79350,Gordon Flick,1948,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Drake,College/University,0
+79352,John Hoppin,1948,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Dickinson,College/University,0
+79353,Dan London,1948,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Washington (MO),College/University,0
+79354,D. Miller,1948,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Saint Louis,College/University,0
+79355,Fred Bartell,1948,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Oregon,College/University,0
+79356,Ed Hughes,1948,0,0,0,Draft,1610610036,Washington,Capitols,WAS,San Jose State,College/University,0
+79357,Thorton Jenkins,1948,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Missouri,College/University,0
+79358,C.T. Parker,1948,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Louisiana Tech,College/University,0
+79359,Don Walker,1948,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Sam Houston State,College/University,0
+79360,Al Williams,1948,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Arkansas,College/University,0
+79361,Jim Black,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Occidental,College/University,0
+79362,Robert Carroll,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,West Virginia,College/University,0
+79363,Marvin English,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Newberry,College/University,0
+79364,Gene Fellmoth,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Wittenberg,College/University,0
+79365,J. W. Fullerton,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Arkansas State,College/University,0
+79366,Marshall Gemberling,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Lebanon Valley,College/University,0
+79367,Vince Hansen,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Washington State,College/University,0
+79368,Wayne Jones,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,American International,College/University,0
+79369,Paul Marcincin,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Moravian,College/University,0
+79370,Link Richmond,1948,0,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Arizona,College/University,0
+79371,Reede Berg,1948,0,0,0,Draft,1610610029,Indianapolis,Jets,JET,Oregon,College/University,0
+76270,Darrell Brown,1948,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Humboldt State,College/University,1
+78124,Howie Shannon,1949,1,1,1,Draft,1610610032,Providence,Steamrollers,PRO,Kansas State,College/University,1
+76897,Alex Groza,1949,1,2,2,Draft,1610610030,Indianapolis,Olympians,INO,Kentucky,College/University,1
+76959,Bob Harris,1949,1,3,3,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Oklahoma State,College/University,1
+77346,Tony Lavelli,1949,1,4,4,Draft,1610612738,Boston,Celtics,BOS,Yale,College/University,1
+76779,Vern Gardner,1949,1,5,5,Draft,1610612744,Philadelphia,Warriors,PHW,Utah,College/University,1
+77392,Ron Livingstone,1949,1,6,6,Draft,1610610024,Baltimore,Bullets,BAL,Wyoming,College/University,1
+77537,Dick McGuire,1949,1,7,7,Draft,1610612752,New York,Knicks,NYK,St. John's (NY),College/University,1
+77199,Wallace Jones,1949,1,8,8,Draft,1610610036,Washington,Capitols,WAS,Kentucky,College/University,1
+77249,Jack Kerris,1949,1,9,9,Draft,1610610025,Chicago,Stags,CHS,Loyola-Chicago,College/University,1
+78063,Frank Saul,1949,1,10,10,Draft,1610612758,Rochester,Royals,ROC,Seton Hall,College/University,1
+79406,Jack Davidson,1949,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Stanford,College/University,0
+79407,Bob Retherford,1949,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Nebraska,College/University,0
+79408,Eddie Van Zant,1949,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Northwestern Oklahoma State,College/University,0
+79409,Preston Ward,1949,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Missouri State,College/University,0
+79410,Maynard Haitcock,1949,0,0,0,Draft,1610610036,Washington,Capitols,WAS,George Washington,College/University,0
+79411,Jim Lacy,1949,0,0,0,Draft,1610610036,Washington,Capitols,WAS,Loyola-Maryland,College/University,0
+79412,Jim Owens,1949,2,0,0,Draft,1610610036,Washington,Capitols,WAS,Baylor,College/University,0
+79413,Bill Evans,1949,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Drake,College/University,0
+79414,Tom Gallagher,1949,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,St. Francis Brooklyn,College/University,0
+79415,Jim McMullen,1949,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Xavier,College/University,0
+79416,Eppa Rixey,1949,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Kenyon,College/University,0
+79417,Roger Wiley,1949,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Oregon,College/University,0
+79418,Bill Zipple,1949,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Lafayette,College/University,0
+79419,Dal Zuber,1949,0,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Toledo,College/University,0
+79420,Charlie Maas,1949,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Butler,College/University,0
+79421,Jim O'Halloran,1949,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Notre Dame,College/University,0
+79422,J.L. Parks,1949,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Oklahoma State,College/University,0
+78033,Bob Royer,1949,8,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Indiana State,College/University,1
+76962,Bob Harrison,1949,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Michigan,College/University,1
+77218,George Kaftan,1949,2,0,0,Draft,1610612738,Boston,Celtics,BOS,Holy Cross,College/University,1
+77285,Duane Klueh,1949,8,0,0,Draft,1610612738,Boston,Celtics,BOS,Indiana State,College/University,1
+77366,Ed Leede,1949,3,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Dartmouth,College/University,1
+76414,Jack Coleman,1949,2,0,0,Draft,1610612758,Rochester,Royals,ROC,Louisville,College/University,1
+76452,Ray Corley,1949,5,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Georgetown,College/University,1
+76580,Earl Dodd,1949,5,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Truman State,College/University,1
+76585,Harry Donovan,1949,2,0,0,Draft,1610612752,New York,Knicks,NYK,Muhlenberg,College/University,1
+76636,Thomas Eddleman,1949,3,0,0,Draft,1610610025,Chicago,Stags,CHS,Illinois,College/University,1
+76687,Bob Evans,1949,4,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Butler,College/University,1
+79405,Joe Crandall,1949,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Oregon State,College/University,0
+79404,Jack Theolan,1949,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,DePaul,College/University,0
+78074,Marv Schatzman,1949,0,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Saint Louis,College/University,1
+78075,Fred Schaus,1949,3,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,West Virginia,College/University,1
+78405,Ernie Vandeweghe,1949,3,0,0,Draft,1610612752,New York,Knicks,NYK,Colgate,College/University,1
+78447,Paul Walther,1949,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Tennessee,College/University,1
+77429,Ed Macauley,1949,0,0,0,Territorial,1610610034,St. Louis,Bombers,BOM,Saint Louis,College/University,1
+77593,Vern Mikkelsen,1949,0,0,0,Territorial,1610612747,Minneapolis,Lakers,MNL,Hamline,College/University,1
+77659,Joe Mullaney,1949,3,0,0,Draft,1610612738,Boston,Celtics,BOS,Holy Cross,College/University,1
+77683,Jerry Nagel,1949,4,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Loyola-Chicago,College/University,1
+77724,Jim Nolan,1949,2,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Georgia Tech,College/University,1
+77758,Johnny Oldham,1949,2,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Western Kentucky,College/University,1
+77769,Johnny Orr,1949,2,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Beloit,College/University,1
+77779,Mac Otten,1949,3,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Bowling Green,College/University,1
+77834,Warren Perkins,1949,4,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Tulane,College/University,1
+77887,John Pritchard,1949,7,0,0,Draft,1610610034,St. Louis,Bombers,BOM,Drake,College/University,1
+76098,Cliff Barker,1949,5,0,0,Draft,1610610036,Washington,Capitols,WAS,Kentucky,College/University,1
+76110,Leo Barnhorst,1949,2,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Notre Dame,College/University,1
+76131,Ralph Beard,1949,2,0,0,Draft,1610610025,Chicago,Stags,CHS,Kentucky,College/University,1
+76190,Nelson Bobb,1949,3,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Temple,College/University,1
+76214,Don Boven,1949,6,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Western Michigan,College/University,1
+79389,Ed Little,1949,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Denver Junior College,College/University,0
+79390,Jim Simpson,1949,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Bates,College/University,0
+79391,Emerson Speicher,1949,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Bowling Green,College/University,0
+79392,Bill Tom,1949,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Rice,College/University,0
+79393,Bill Vandenburgh,1949,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Washington,College/University,0
+79394,Russ Washburn,1949,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Colby,College/University,0
+79395,Bill Weight,1949,0,0,0,Draft,1610612738,Boston,Celtics,BOS,Brigham Young,College/University,0
+79396,Don Bagley,1949,0,0,0,Draft,1610612752,New York,Knicks,NYK,Notre Dame,College/University,0
+79397,Ken Kearns,1949,0,0,0,Draft,1610612752,New York,Knicks,NYK,Arkansas,College/University,0
+79398,Bill Kleine,1949,0,0,0,Draft,1610612752,New York,Knicks,NYK,Missouri Valley,College/University,0
+79399,Bill Litchfield,1949,0,0,0,Draft,1610612752,New York,Knicks,NYK,Emporia State,College/University,0
+79400,Bob Prewitt,1949,0,0,0,Draft,1610612752,New York,Knicks,NYK,Southern Methodist,College/University,0
+79401,Paul Courty,1949,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Oklahoma,College/University,0
+79402,Carl Schaeffer,1949,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Alabama,College/University,0
+79403,Bill Tanzler,1949,0,0,0,Draft,1610610032,Providence,Steamrollers,PRO,Florida,College/University,0
+76835,Paul Gordon,1949,3,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Notre Dame,College/University,1
+78125,Charlie Share,1950,1,1,1,Draft,1610612738,Boston,Celtics,BOS,Bowling Green,College/University,1
+77933,Don Rehfeldt,1950,1,2,2,Draft,1610610024,Baltimore,Bullets,BAL,Wisconsin,College/University,1
+600003,Bob Cousy,1950,1,3,3,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Holy Cross,College/University,1
+78086,Dick Schnittker,1950,1,4,4,Draft,1610610036,Washington,Capitols,WAS,Ohio State,College/University,1
+76744,Larry Foust,1950,1,5,5,Draft,1610610025,Chicago,Stags,CHS,La Salle,College/University,1
+79437,Irwin Dambrot,1950,1,6,6,Draft,1610612752,New York,Knicks,NYK,City College of New York,College/University,0
+78628,George Yardley,1950,1,7,7,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Stanford,College/University,1
+77347,Bob Lavoy,1950,1,8,8,Draft,1610610030,Indianapolis,Olympians,INO,Western Kentucky,College/University,1
+77559,Joe McNamee,1950,1,9,9,Draft,1610612758,Rochester,Royals,ROC,San Francisco,College/University,1
+77773,Kevin O'Shea,1950,1,10,10,Draft,1610612747,Minneapolis,Lakers,MNL,Notre Dame,College/University,1
+77402,Don Lofgran,1950,1,11,11,Draft,1610612755,Syracuse,Nationals,SYR,San Francisco,College/University,1
+79487,Jerry Stuteville,1950,8,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Indiana,College/University,0
+79486,Gene Schmidt,1950,9,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Texas Christian,College/University,0
+79485,Jim Line,1950,4,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Kentucky,College/University,0
+79484,Jimmy Doyle,1950,11,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Butler,College/University,0
+79483,Colin Anderson,1950,10,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Georgia Tech,College/University,0
+79482,Sonny Allen,1950,5,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Morehead State,College/University,0
+79481,Warren Switzer,1950,9,0,0,Draft,1610612758,Rochester,Royals,ROC,Rice,College/University,0
+79480,George Stanich,1950,2,0,0,Draft,1610612758,Rochester,Royals,ROC,California-Los Angeles,College/University,0
+79479,Bob Roper,1950,3,0,0,Draft,1610612758,Rochester,Royals,ROC,John Carroll,College/University,0
+79478,Carl Kraushaar,1950,8,0,0,Draft,1610612758,Rochester,Royals,ROC,California-Los Angeles,College/University,0
+79477,Dan Kahler,1950,7,0,0,Draft,1610612758,Rochester,Royals,ROC,Southwestern (KS),College/University,0
+79476,John Givens,1950,6,0,0,Draft,1610612758,Rochester,Royals,ROC,Western Kentucky,College/University,0
+79475,Chet Giermak,1950,4,0,0,Draft,1610612758,Rochester,Royals,ROC,William & Mary,College/University,0
+79474,Harry Foley,1950,10,0,0,Draft,1610612758,Rochester,Royals,ROC,Niagara,College/University,0
+77441,Norm Mager,1950,5,0,0,Draft,1610610024,Baltimore,Bullets,BAL,City College of New York,College/University,1
+79473,Howie Williams,1950,3,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Purdue,College/University,0
+79472,Jim Reilly,1950,9,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Swarthmore,College/University,0
+79471,Hal Haskins,1950,2,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Hamline,College/University,0
+79470,Wayne Glasgow,1950,6,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Oklahoma,College/University,0
+79469,Andy Butchko,1950,10,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Purdue,College/University,0
+79468,Newt Benson,1950,8,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Wisconsin-River Falls,College/University,0
+79467,Ed Thompson,1950,5,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Kent State,College/University,0
+79466,Len Rzewszewski,1950,4,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Indiana State,College/University,0
+79465,Bob Metcalf,1950,6,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Valparaiso,College/University,0
+79464,Ed Jones,1950,7,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Tennessee,College/University,0
+79488,Paul Unruh,1950,2,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Bradley,College/University,0
+79489,Lou Arko,1950,7,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Akron,College/University,0
+79490,Stan Christie,1950,3,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Southern California,College/University,0
+79491,Bob Healey,1950,8,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Georgia,College/University,0
+79492,Paul Hickey,1950,5,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Denver,College/University,0
+79493,Paul Merchant,1950,4,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Oklahoma,College/University,0
+79494,Bob Savage,1950,9,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Syracuse,College/University,0
+79495,Mack Suprunowicz,1950,6,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Michigan,College/University,0
+79496,Glenn Wilkes,1950,10,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Mercer,College/University,0
+79497,Bob Anderson,1950,6,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Loyola-Maryland,College/University,0
+79498,Keith Bloom,1950,10,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Wyoming,College/University,0
+79499,Clarence Brannum,1950,3,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Kansas State,College/University,0
+79500,Loy Doty,1950,8,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Wyoming,College/University,0
+79501,Bill Erickson,1950,7,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Illinois,College/University,0
+79502,Paul Hicks,1950,4,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Eastern Kentucky,College/University,0
+77090,Joe Hutton,1950,7,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Hamline,College/University,1
+77268,George King,1950,8,0,0,Draft,1610610025,Chicago,Stags,CHS,Charleston (WV),College/University,1
+77394,Earl Lloyd,1950,9,0,0,Draft,1610610036,Washington,Capitols,WAS,West Virginia State,College/University,1
+76311,Art Burris,1950,3,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Tennessee,College/University,1
+76326,Gerry Calabrese,1950,2,0,0,Draft,1610612755,Syracuse,Nationals,SYR,St. John's (NY),College/University,1
+76394,Cal Christensen,1950,5,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Toledo,College/University,1
+76442,Chuck Cooper,1950,2,0,0,Draft,1610612738,Boston,Celtics,BOS,Duquesne,College/University,1
+76496,Ed Dahler,1950,2,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Duquesne,College/University,1
+76551,Nate DeLong,1950,9,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Wisconsin-River Falls,College/University,1
+76565,Dick Dickey,1950,3,0,0,Draft,1610610024,Baltimore,Bullets,BAL,North Carolina State,College/University,1
+76584,Bob Donham,1950,3,0,0,Draft,1610612738,Boston,Celtics,BOS,Ohio State,College/University,1
+76797,Ed Gayda,1950,2,0,0,Draft,1610612737,Tri-Cities,Blackhawks,TCB,Washington State,College/University,1
+79463,Al Henningsen,1950,9,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Northwest Missouri State,College/University,0
+79462,Billy Adcock,1950,8,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Vanderbilt,College/University,0
+77444,Francis Mahoney,1950,6,0,0,Draft,1610612738,Boston,Celtics,BOS,Brown,College/University,1
+77657,Chuck Mrazovich,1950,3,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Eastern Kentucky,College/University,1
+77675,Ken Murray,1950,4,0,0,Draft,1610610025,Chicago,Stags,CHS,St. Bonaventure,College/University,1
+77743,Buckshot O'Brien,1950,6,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Butler,College/University,1
+77753,Tommy O'Keefe,1950,4,0,0,Draft,1610610036,Washington,Capitols,WAS,Georgetown,College/University,1
+77775,Wally Osterkorn,1950,2,0,0,Draft,1610610025,Chicago,Stags,CHS,Illinois,College/University,1
+77780,Claude Overton,1950,5,0,0,Draft,1610610036,Washington,Capitols,WAS,East Central,College/University,1
+77859,John Pilch,1950,2,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Wyoming,College/University,1
+77959,Jim Riffey,1950,2,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Tulane,College/University,1
+78067,Alan Sawyer,1950,3,0,0,Draft,1610610036,Washington,Capitols,WAS,California-Los Angeles,College/University,1
+78082,Herb Scherer,1950,2,0,0,Draft,1610612752,New York,Knicks,NYK,Long Island-Brooklyn,College/University,1
+78126,Bill Sharman,1950,2,0,0,Draft,1610610036,Washington,Capitols,WAS,Southern California,College/University,1
+76056,Paul Arizin,1950,0,0,0,Territorial,1610612744,Philadelphia,Warriors,PHW,Villanova,College/University,1
+76129,Ed Beach,1950,5,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,West Virginia,College/University,1
+76186,Leon Blevins,1950,7,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Arizona,College/University,1
+76209,Costic Borsavage,1950,5,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Temple,College/University,1
+79341,Joe Nelson,1950,5,0,0,Draft,1610612758,Rochester,Royals,ROC,Brigham Young,College/University,0
+79423,Dale Barnstable,1950,7,0,0,Draft,1610612738,Boston,Celtics,BOS,Kentucky,College/University,0
+79424,Bob Cope,1950,9,0,0,Draft,1610612738,Boston,Celtics,BOS,Montana,College/University,0
+79425,Matt Forman,1950,10,0,0,Draft,1610612738,Boston,Celtics,BOS,Holy Cross,College/University,0
+79426,Frank Oftring,1950,8,0,0,Draft,1610612738,Boston,Celtics,BOS,Holy Cross,College/University,0
+79427,Ken Reeves,1950,4,0,0,Draft,1610612738,Boston,Celtics,BOS,Louisville,College/University,0
+79428,Jack Shelton,1950,5,0,0,Draft,1610612738,Boston,Celtics,BOS,Oklahoma State,College/University,0
+79429,John Brown,1950,9,0,0,Draft,1610610025,Chicago,Stags,CHS,Georgetown,College/University,0
+79430,Stu Inman,1950,6,0,0,Draft,1610610025,Chicago,Stags,CHS,San Jose State,College/University,0
+79431,Bud Schaeffer,1950,10,0,0,Draft,1610610025,Chicago,Stags,CHS,Wheaton (IL),College/University,0
+79432,Don Stroot,1950,5,0,0,Draft,1610610025,Chicago,Stags,CHS,Missouri,College/University,0
+79433,Lou Watson,1950,3,0,0,Draft,1610610025,Chicago,Stags,CHS,Indiana,College/University,0
+79434,Milt Whitehead,1950,7,0,0,Draft,1610610025,Chicago,Stags,CHS,Nebraska,College/University,0
+79435,Dan Bagley,1950,7,0,0,Draft,1610612752,New York,Knicks,NYK,Notre Dame,College/University,0
+79436,Dick Barnes,1950,5,0,0,Draft,1610612752,New York,Knicks,NYK,San Diego State,College/University,0
+79438,Don Heathington,1950,9,0,0,Draft,1610612752,New York,Knicks,NYK,Baylor,College/University,0
+79439,Charles Hope,1950,8,0,0,Draft,1610612752,New York,Knicks,NYK,Appalachian State,College/University,0
+79440,Joe Ossola,1950,4,0,0,Draft,1610612752,New York,Knicks,NYK,Saint Louis,College/University,0
+79441,Don Parsons,1950,6,0,0,Draft,1610612752,New York,Knicks,NYK,Rutgers,College/University,0
+79442,Stan Weber,1950,3,0,0,Draft,1610612752,New York,Knicks,NYK,Bowling Green,College/University,0
+79443,Bernie Adams,1950,10,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Princeton,College/University,0
+79444,Buddy Cate,1950,3,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Western Kentucky,College/University,0
+79445,Dick Dallmer,1950,6,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Cincinnati,College/University,0
+79446,Joe Kaufman,1950,9,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,New York University,College/University,0
+79447,Ed Montgomery,1950,12,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Tennessee,College/University,0
+79448,Charles Northup,1950,7,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Siena,College/University,0
+79449,Brooks Ricca,1950,8,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Villanova,College/University,0
+79450,Paul Sensky,1950,4,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Saint Joseph's,College/University,0
+79451,Leo Wolfe,1950,11,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Villanova,College/University,0
+79452,Warren Cartier,1950,6,0,0,Draft,1610610036,Washington,Capitols,WAS,North Carolina State,College/University,0
+79453,Jim Cathcart,1950,7,0,0,Draft,1610610036,Washington,Capitols,WAS,Arkansas,College/University,0
+79454,Joe Greenbach,1950,8,0,0,Draft,1610610036,Washington,Capitols,WAS,Santa Clara,College/University,0
+79455,Joe Noertker,1950,10,0,0,Draft,1610610036,Washington,Capitols,WAS,Virginia,College/University,0
+79456,George Bush,1950,8,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Toledo,College/University,0
+79457,Frank Comerford,1950,7,0,0,Draft,1610610024,Baltimore,Bullets,BAL,La Salle,College/University,0
+79458,Rick Harman,1950,6,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Kansas State,College/University,0
+79459,Jack Laub,1950,9,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Cincinnati,College/University,0
+79460,Jerry Reed,1950,4,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Wyoming,College/University,0
+79461,Mike Zedalis,1950,10,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Loyola-Maryland,College/University,0
+76850,Bud Grant,1950,4,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Minnesota,College/University,1
+79526,Gene Melchiorre,1951,1,1,1,Draft,1610610024,Baltimore,Bullets,BAL,Bradley,College/University,0
+77089,Mel Hutchins,1951,1,2,2,Draft,1610612737,Milwaukee,Hawks,MIH,Brigham Young,College/University,1
+79544,Marcus Freiberger,1951,1,3,3,Draft,1610610030,Indianapolis,Olympians,INO,Oklahoma,College/University,0
+78163,Zeke Sinicola,1951,1,4,4,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Niagara,College/University,1
+77513,John McConathy,1951,1,5,5,Draft,1610612755,Syracuse,Nationals,SYR,Northwestern State,College/University,1
+78187,Ed Smith,1951,1,6,6,Draft,1610612752,New York,Knicks,NYK,Harvard,College/University,1
+76114,Ernie Barrett,1951,1,7,7,Draft,1610612738,Boston,Celtics,BOS,Kansas State,College/University,1
+77912,Sam Ranzino,1951,1,8,8,Draft,1610612758,Rochester,Royals,ROC,North Carolina State,College/University,1
+78278,Don Sunderlage,1951,1,9,9,Draft,1610612744,Philadelphia,Warriors,PHW,Illinois,College/University,1
+79284,Jack Stone,1951,2,1,10,Draft,1610610024,Baltimore,Bullets,BAL,Kansas State,College/University,0
+79559,Bill Gossett,1951,2,2,11,Draft,1610612737,Milwaukee,Hawks,MIH,Colorado State,College/University,0
+79549,Scotty Steagall,1951,2,3,12,Draft,1610610030,Indianapolis,Olympians,INO,Millikin,College/University,0
+77256,Jack Kiley,1951,2,4,13,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Syracuse,College/University,1
+78066,Don Savage,1951,2,5,14,Draft,1610612755,Syracuse,Nationals,SYR,Le Moyne,College/University,1
+79510,Roland Minson,1951,2,6,15,Draft,1610612752,New York,Knicks,NYK,Brigham Young,College/University,0
+79506,Bill Garrett,1951,2,7,16,Draft,1610612738,Boston,Celtics,BOS,Indiana,College/University,0
+77902,Ray Ragelis,1951,2,8,17,Draft,1610612758,Rochester,Royals,ROC,Northwestern,College/University,1
+77824,Mel Payton,1951,2,9,18,Draft,1610612744,Philadelphia,Warriors,PHW,Tulane,College/University,1
+77032,Lew Hitch,1951,2,10,19,Draft,1610612747,Minneapolis,Lakers,MNL,Kansas State,College/University,1
+79525,Bill Mann,1951,3,1,20,Draft,1610610024,Baltimore,Bullets,BAL,Bradley,College/University,0
+79557,Ron Bontemps,1951,3,2,21,Draft,1610612737,Milwaukee,Hawks,MIH,Beloit,College/University,0
+79546,Glenn Kammeyer,1951,3,3,22,Draft,1610610030,Indianapolis,Olympians,INO,Central Missouri,College/University,0
+76705,Jake Fendley,1951,3,4,23,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Northwestern,College/University,1
+76837,Bato Govedarica,1951,3,5,24,Draft,1610612755,Syracuse,Nationals,SYR,DePaul,College/University,1
+79509,Joe Luchi,1951,3,6,25,Draft,1610612752,New York,Knicks,NYK,Cincinnati,College/University,0
+79505,John Furlong,1951,3,7,26,Draft,1610612738,Boston,Celtics,BOS,Pepperdine,College/University,0
+76578,Fred Diute,1951,3,8,27,Draft,1610612758,Rochester,Royals,ROC,St. Bonaventure,College/University,1
+79517,Bob Schloss,1951,3,9,28,Draft,1610612744,Philadelphia,Warriors,PHW,Georgia,College/University,0
+79538,Bob Payne,1951,3,10,29,Draft,1610612747,Minneapolis,Lakers,MNL,Oregon State,College/University,0
+79522,Bill Hagler,1951,4,1,30,Draft,1610610024,Baltimore,Bullets,BAL,California,College/University,0
+78171,Jim Slaughter,1951,4,2,31,Draft,1610612737,Milwaukee,Hawks,MIH,South Carolina,College/University,1
+78359,Bill Tosheff,1951,4,3,32,Draft,1610610030,Indianapolis,Olympians,INO,Indiana,College/University,1
+79531,Herb Hargett,1951,4,4,33,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Mississippi State,College/University,0
+79551,Paul Horvath,1951,4,5,34,Draft,1610612755,Syracuse,Nationals,SYR,North Carolina State,College/University,0
+79512,Lloyd Sandstrom,1951,4,6,35,Draft,1610612752,New York,Knicks,NYK,St. Thomas (MN),College/University,0
+79504,Bob Barnett,1951,4,7,36,Draft,1610612738,Boston,Celtics,BOS,Evansville,College/University,0
+76141,Elmer Behnke,1951,4,8,37,Draft,1610612758,Rochester,Royals,ROC,Bradley,College/University,1
+79516,Jud Milhon,1951,4,9,38,Draft,1610612744,Philadelphia,Warriors,PHW,Ohio Wesleyan,College/University,0
+79537,Gale McArthur,1951,4,10,39,Draft,1610612747,Minneapolis,Lakers,MNL,Oklahoma State,College/University,0
+79524,Leroy Ishman,1951,5,1,40,Draft,1610610024,Baltimore,Bullets,BAL,American,College/University,0
+79561,Bob Sakel,1951,5,2,41,Draft,1610612737,Milwaukee,Hawks,MIH,Evansville,College/University,0
+79548,Bob Pierce,1951,5,3,42,Draft,1610610030,Indianapolis,Olympians,INO,Nebraska,College/University,0
+79532,Leo Johnson,1951,5,4,43,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Arizona,College/University,0
+79550,Glen Anderson,1951,5,5,44,Draft,1610612755,Syracuse,Nationals,SYR,Colorado State,College/University,0
+79513,Tom Smith,1951,5,6,45,Draft,1610612752,New York,Knicks,NYK,St. Peter's,College/University,0
+79507,Rip Gish,1951,5,7,46,Draft,1610612738,Boston,Celtics,BOS,Western Kentucky,College/University,0
+79435,Dan Bagley,1951,5,8,47,Draft,1610612758,Rochester,Royals,ROC,Notre Dame,College/University,0
+77230,Michael Kearns,1951,5,9,48,Draft,1610612744,Philadelphia,Warriors,PHW,Princeton,College/University,1
+79539,Leo Vander Kuy,1951,5,10,49,Draft,1610612747,Minneapolis,Lakers,MNL,Michigan,College/University,0
+79521,Glen Duggins,1951,6,1,50,Draft,1610610024,Baltimore,Bullets,BAL,Utah,College/University,0
+77941,John Rennicke,1951,6,2,51,Draft,1610612737,Milwaukee,Hawks,MIH,Drake,College/University,1
+79545,Marv Johnson,1951,6,3,52,Draft,1610610030,Indianapolis,Olympians,INO,Wheaton (IL),College/University,0
+79530,Frank Clasbeek,1951,6,4,53,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Iowa,College/University,0
+79555,Bob Wheeler,1951,6,5,54,Draft,1610612755,Syracuse,Nationals,SYR,Idaho,College/University,0
+77536,Al McGuire,1951,6,6,55,Draft,1610612752,New York,Knicks,NYK,St. John's (NY),College/University,1
+77422,Jim Luisi,1951,6,7,56,Draft,1610612738,Boston,Celtics,BOS,St. Francis Brooklyn,College/University,1
+79542,Jim Ove,1951,6,8,57,Draft,1610612758,Rochester,Royals,ROC,Valparaiso,College/University,0
+79518,Bob Swails,1951,6,9,58,Draft,1610612744,Philadelphia,Warriors,PHW,Indianapolis,College/University,0
+79535,Deward Dopson,1951,6,10,59,Draft,1610612747,Minneapolis,Lakers,MNL,Arkansas Tech,College/University,0
+79528,Tom Riach,1951,7,1,60,Draft,1610610024,Baltimore,Bullets,BAL,Southern California,College/University,0
+79556,Bob Ambler,1951,7,2,61,Draft,1610612737,Milwaukee,Hawks,MIH,Arkansas,College/University,0
+79543,Ted Beach,1951,7,3,62,Draft,1610610030,Indianapolis,Olympians,INO,Illinois,College/University,0
+79534,Jim Ramstead,1951,7,4,63,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Stanford,College/University,0
+79554,Roy Reardon,1951,7,5,64,Draft,1610612755,Syracuse,Nationals,SYR,St. Francis Brooklyn,College/University,0
+79511,Sid Ryen,1951,7,6,65,Draft,1610612752,New York,Knicks,NYK,Denver,College/University,0
+79503,John Azary,1951,7,7,66,Draft,1610612738,Boston,Celtics,BOS,Columbia,College/University,0
+79540,John Brown,1951,7,8,67,Draft,1610612758,Rochester,Royals,ROC,Southern Methodist,College/University,0
+76555,George Dempsey,1951,7,9,68,Draft,1610612744,Philadelphia,Warriors,PHW,King's (NY),College/University,1
+79536,Ed Head,1951,7,10,69,Draft,1610612747,Minneapolis,Lakers,MNL,Kansas State,College/University,0
+79523,Bill Harper,1951,8,1,70,Draft,1610610024,Baltimore,Bullets,BAL,Oregon State,College/University,0
+79560,Aaron Preece,1951,8,2,71,Draft,1610612737,Milwaukee,Hawks,MIH,Bradley,College/University,0
+79547,George Kelly,1951,8,3,72,Draft,1610610030,Indianapolis,Olympians,INO,Vanderbilt,College/University,0
+79533,John Manning,1951,8,4,73,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Duquesne,College/University,0
+79552,Tom Jockle,1951,8,5,74,Draft,1610612755,Syracuse,Nationals,SYR,Syracuse,College/University,0
+79508,Hugo Kappler,1951,8,6,75,Draft,1610612738,Boston,Celtics,BOS,North Carolina State,College/University,0
+79541,George Davidson,1951,8,7,76,Draft,1610612758,Rochester,Royals,ROC,Lafayette,College/University,0
+77849,Jim Phelan,1951,8,8,77,Draft,1610612744,Philadelphia,Warriors,PHW,La Salle,College/University,1
+79520,Bob Crowe,1951,9,1,78,Draft,1610610024,Baltimore,Bullets,BAL,San Jose State,College/University,0
+79562,Wayne Tucker,1951,9,2,79,Draft,1610612737,Milwaukee,Hawks,MIH,Colorado,College/University,0
+79553,Ray Kirkwasser,1951,9,3,80,Draft,1610612755,Syracuse,Nationals,SYR,Ithaca,College/University,0
+79514,Hugh Faulkner,1951,9,4,81,Draft,1610612744,Philadelphia,Warriors,PHW,Pepperdine,College/University,0
+79529,Dan Torrey,1951,10,1,82,Draft,1610610024,Baltimore,Bullets,BAL,Oregon State,College/University,0
+79558,John DeWitt,1951,10,2,83,Draft,1610612737,Milwaukee,Hawks,MIH,Texas A&M,College/University,0
+79515,Paul Gerwin,1951,10,3,84,Draft,1610612744,Philadelphia,Warriors,PHW,Cornell,College/University,0
+79527,Clem Pavilonis,1951,11,1,85,Draft,1610610024,Baltimore,Bullets,BAL,DePaul,College/University,0
+79519,John Burke,1951,12,1,86,Draft,1610610024,Baltimore,Bullets,BAL,Springfield,College/University,0
+78169,Whitey Skoog,1951,0,0,0,Territorial,1610612747,Minneapolis,Lakers,MNL,Minnesota,College/University,1
+78616,Mark Workman,1952,1,0,1,Draft,1610612737,Milwaukee,Hawks,MIH,West Virginia,College/University,1
+76081,Jim Baechtold,1952,1,0,2,Draft,1610610024,Baltimore,Bullets,BAL,Eastern Kentucky,College/University,1
+76894,Dick Groat,1952,1,0,3,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Duke,College/University,1
+79618,Joe Dean,1952,1,0,4,Draft,1610610030,Indianapolis,Olympians,INO,Louisiana State,College/University,0
+77868,Ralph Polson,1952,1,0,5,Draft,1610612752,New York,Knicks,NYK,Whitworth,College/University,1
+79570,Bill Stauffer,1952,1,0,6,Draft,1610612738,Boston,Celtics,BOS,Missouri,College/University,0
+77397,Bob Lochmueller,1952,1,0,7,Draft,1610612755,Syracuse,Nationals,SYR,Louisville,College/University,1
+79607,Chuck Darling,1952,1,0,8,Draft,1610612758,Rochester,Royals,ROC,Iowa,College/University,0
+77414,Clyde Lovellette,1952,1,0,9,Draft,1610612747,Minneapolis,Lakers,MNL,Kansas,College/University,1
+79604,Middie Smith,1952,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Xavier,College/University,0
+79605,Homer Spain,1952,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Union (TN),College/University,0
+79606,John Wallesea,1952,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Memphis,College/University,0
+79608,Bryant Ivey,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Alabama,College/University,0
+79609,Leroy Leslie,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Notre Dame,College/University,0
+79610,Jewell McDowell,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Texas A&M,College/University,0
+79611,Sam Miranda,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Indiana,College/University,0
+79612,Jerry Romney,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Brigham Young,College/University,0
+79613,Ray Royce,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Houston,College/University,0
+79614,Arnold Smith,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,City College of New York,College/University,0
+79615,Ray Sonnenberg,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Saint Louis,College/University,0
+79616,Ray Steiner,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Saint Louis,College/University,0
+79617,Bob Whitmer,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,Florida State,College/University,0
+79619,Jay Handlan,1952,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Washington & Lee,College/University,0
+79620,Bill Harrell,1952,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Siena,College/University,0
+79621,Jim Hoverder,1952,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Central Missouri,College/University,0
+79622,Gordon Stauffer,1952,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Michigan State,College/University,0
+79623,Dale Toft,1952,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Denver,College/University,0
+78280,Dick Surhoff,1952,0,0,0,Draft,1610612752,New York,Knicks,NYK,Long Island-Brooklyn,College/University,1
+78446,Jim Walsh,1952,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Stanford,College/University,1
+78506,Lucian Whitaker,1952,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Kentucky,College/University,1
+76241,Jim Brasco,1952,0,0,0,Draft,1610612755,Syracuse,Nationals,SYR,New York University,College/University,1
+76246,Tom Brennan,1952,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Villanova,College/University,1
+77843,Bob Peterson,1952,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Oregon,College/University,1
+77886,Bob Priddy,1952,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,New Mexico State,College/University,1
+77900,Moe Radovich,1952,0,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Wyoming,College/University,1
+77947,Gene Rhodes,1952,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,Western Kentucky,College/University,1
+77430,Ronnie MacGilvray,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,St. John's (NY),College/University,1
+76301,Dick Bunt,1952,0,0,0,Draft,1610612752,New York,Knicks,NYK,New York University,College/University,1
+76428,Gene Conley,1952,10,0,0,Draft,1610612738,Boston,Celtics,BOS,Washington State,College/University,1
+76434,Bert Cook,1952,0,0,0,Draft,1610612752,New York,Knicks,NYK,Utah State,College/University,1
+76536,Walt Davis,1952,2,0,0,Draft,1610612744,Philadelphia,Warriors,PHW,Texas A&M,College/University,1
+76557,Blaine Denning,1952,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Lawrence Tech,College/University,1
+79624,Bud Donnelly,1952,0,0,0,Draft,1610612755,Syracuse,Nationals,SYR,La Salle,College/University,0
+79625,Jim Kennedy,1952,0,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Duquesne,College/University,0
+79626,Harry Moore,1952,0,0,0,Draft,1610612755,Syracuse,Nationals,SYR,West Virginia,College/University,0
+79627,Bob Roche,1952,0,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Syracuse,College/University,0
+79628,Pete Brewster,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,Purdue,College/University,0
+79629,Roger Johnson,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,Arizona,College/University,0
+79630,Ab Nicholas,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,Wisconsin,College/University,0
+79631,Dick Retherford,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,Baldwin Wallace,College/University,0
+79632,John Snee,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,Clemson,College/University,0
+79633,Jim Tackett,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,New Mexico,College/University,0
+79634,Coyt Vance,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,Mississippi State,College/University,0
+79603,Gene Smith,1952,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Huron,College/University,0
+79602,Don Schneider,1952,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Arizona,College/University,0
+78639,Robert Zawoluk,1952,0,0,0,Draft,1610610030,Indianapolis,Olympians,INO,St. John's (NY),College/University,1
+76891,Chuck Grigsby,1952,0,0,0,Draft,1610610024,Baltimore,Bullets,BAL,Dayton,College/University,1
+76986,Herm Hedderick,1952,4,0,0,Draft,1610612738,Boston,Celtics,BOS,Canisius,College/University,1
+77045,Jim Holstein,1952,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Cincinnati,College/University,1
+77499,Ken McBride,1952,0,0,0,Draft,1610612755,Syracuse,Nationals,SYR,Maryland-Eastern Shore,College/University,1
+77549,George McLeod,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,Texas Christian,College/University,1
+77551,Jack McMahon,1952,0,0,0,Draft,1610612758,Rochester,Royals,ROC,St. John's (NY),College/University,1
+77563,Carl McNulty,1952,0,0,0,Draft,1610612747,Minneapolis,Lakers,MNL,Purdue,College/University,1
+77573,Don Meineke,1952,0,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Dayton,College/University,1
+77599,Eddie Miller,1952,0,0,0,Draft,1610612737,Milwaukee,Hawks,MIH,Syracuse,College/University,1
+77619,Bill Mlkvy,1952,0,0,0,Territorial,1610612744,Philadelphia,Warriors,PHW,Temple,College/University,1
+79534,Jim Ramstead,1952,0,0,0,Draft,1610612765,Ft. Wayne Zollner,Pistons,FTW,Stanford,College/University,0
+79563,Jim Buchanan,1952,6,0,0,Draft,1610612738,Boston,Celtics,BOS,Nebraska,College/University,0
+79564,Jim Dilling,1952,9,0,0,Draft,1610612738,Boston,Celtics,BOS,Holy Cross,College/University,0
+79565,Fred Eydt,1952,7,0,0,Draft,1610612738,Boston,Celtics,BOS,Cornell,College/University,0
+79566,Jim Iverson,1952,2,0,0,Draft,1610612738,Boston,Celtics,BOS,Kansas State,College/University,0
+79567,Don Johnson,1952,5,0,0,Draft,1610612738,Boston,Celtics,BOS,Oklahoma State,College/University,0
+79568,J. C. Maze,1952,3,0,0,Draft,1610612738,Boston,Celtics,BOS,Texas State,College/University,0
+79569,Gordon Mungier,1952,8,0,0,Draft,1610612738,Boston,Celtics,BOS,Spring Hill,College/University,0
+79571,Roy Belliveau,1952,0,0,0,Draft,1610612752,New York,Knicks,NYK,Seton Hall,College/University,0
+79572,Ben Gibson,1952,0,0,0,Draft,1610612752,New York,Knicks,NYK,St. Mary's (CA),College/University,0
