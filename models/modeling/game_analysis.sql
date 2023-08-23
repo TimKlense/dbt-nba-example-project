@@ -1,0 +1,150 @@
+-- models/game_analysis.sql
+
+-- Referring to the stage models
+WITH
+  game_info AS (
+    SELECT
+      game_id,
+      game_date,
+      team_id_home,
+      team_name_home,
+      team_id_away,
+      team_name_away
+    FROM {{ ref('stg_game') }}
+  ),
+  game_summary AS (
+    SELECT
+      game_id,
+      game_date_est,
+      live_period,
+      live_pc_time,
+      game_status_text
+    FROM {{ ref('stg_game_summary') }}
+  ),
+  line_score AS (
+    SELECT
+      game_id,
+      pts_qtr1_home,
+      pts_qtr2_home,
+      pts_qtr3_home,
+      pts_qtr4_home,
+      pts_ot1_home,
+      pts_ot2_home,
+      pts_ot3_home,
+      pts_ot4_home,
+      pts_ot5_home,
+      pts_ot6_home,
+      pts_ot7_home,
+      pts_ot8_home,
+      pts_ot9_home,
+      pts_ot10_home,
+      pts_home,
+      pts_qtr1_away,
+      pts_qtr2_away,
+      pts_qtr3_away,
+      pts_qtr4_away,
+      pts_ot1_away,
+      pts_ot2_away,
+      pts_ot3_away,
+      pts_ot4_away,
+      pts_ot5_away,
+      pts_ot6_away,
+      pts_ot7_away,
+      pts_ot8_away,
+      pts_ot9_away,
+      pts_ot10_away,
+      pts_away
+    FROM {{ ref('stg_line_score') }}
+  ),
+  other_stats AS (
+    SELECT
+      game_id,
+      league_id,
+      team_id_home,
+      team_id_away,
+      pts_paint_home,
+      pts_paint_away,
+      pts_2nd_chance_home,
+      pts_2nd_chance_away,
+      pts_fb_home,
+      pts_fb_away,
+      largest_lead_home,
+      largest_lead_away,
+      lead_changes,
+      times_tied,
+      team_turnovers_home,
+      total_turnovers_home,
+      team_rebounds_home,
+      pts_off_to_home,
+      team_turnovers_away,
+      total_turnovers_away,
+      team_rebounds_away,
+      pts_off_to_away
+    FROM {{ ref('stg_other_stats') }}
+  )
+
+-- Joining the data
+SELECT
+  gi.game_id,
+  gi.game_date,
+  gi.team_id_home,
+  gi.team_name_home,
+  gi.team_id_away,
+  gi.team_name_away,
+  gs.game_date_est,
+  gs.live_period,
+  gs.live_pc_time,
+  gs.game_status_text,
+  ls.pts_qtr1_home,
+  ls.pts_qtr2_home,
+  ls.pts_qtr3_home,
+  ls.pts_qtr4_home,
+  ls.pts_ot1_home,
+  ls.pts_ot2_home,
+  ls.pts_ot3_home,
+  ls.pts_ot4_home,
+  ls.pts_ot5_home,
+  ls.pts_ot6_home,
+  ls.pts_ot7_home,
+  ls.pts_ot8_home,
+  ls.pts_ot9_home,
+  ls.pts_ot10_home,
+  ls.pts_home,
+  ls.pts_qtr1_away,
+  ls.pts_qtr2_away,
+  ls.pts_qtr3_away,
+  ls.pts_qtr4_away,
+  ls.pts_ot1_away,
+  ls.pts_ot2_away,
+  ls.pts_ot3_away,
+  ls.pts_ot4_away,
+  ls.pts_ot5_away,
+  ls.pts_ot6_away,
+  ls.pts_ot7_away,
+  ls.pts_ot8_away,
+  ls.pts_ot9_away,
+  ls.pts_ot10_away,
+  ls.pts_away,
+  os.league_id,
+  os.pts_paint_home,
+  os.pts_paint_away,
+  os.pts_2nd_chance_home,
+  os.pts_2nd_chance_away,
+  os.pts_fb_home,
+  os.pts_fb_away,
+  os.largest_lead_home,
+  os.largest_lead_away,
+  os.lead_changes,
+  os.times_tied,
+  os.team_turnovers_home,
+  os.total_turnovers_home,
+  os.team_rebounds_home,
+  os.pts_off_to_home,
+  os.team_turnovers_away,
+  os.total_turnovers_away,
+  os.team_rebounds_away,
+  os.pts_off_to_away
+FROM game_info gi
+JOIN game_summary gs ON gi.game_id = gs.game_id
+JOIN line_score ls ON gi.game_id = ls.game_id
+LEFT JOIN other_stats os ON gi.game_id = os.game_id
