@@ -19,7 +19,7 @@ renamed as (
         game_date,
         matchup_home,
         wl_home,
-        min_home,
+        min as minutes,
         fgm_home,
         fga_home,
         fg_pct_home,
