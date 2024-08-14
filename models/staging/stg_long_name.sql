@@ -1,6 +1,8 @@
 -- models/stg_game_info.sql
 
 -- Define the staging model named "stg_game_info"
+-- COLUMN_NAME_LONG_TO_SHOW_THAT_IT_GOES_OFF_THE_SCREEN_FOR_VIS_EDITOR0
+-- COLUMN_NAME_LONG_TO_SHOW_THAT_IT_GOES_OFF_THE_SCREEN_FOR_VIS_EDITOR1
 
 with source as (
     {#-
@@ -11,8 +13,8 @@ with source as (
 ),
 renamed as (
     select
-        COLUMN_NAME_LONG_TO_SHOW_THAT_IT_GOES_OFF_THE_SCREEN_FOR_VIS_EDITOR0,
-        COLUMN_NAME_LONG_TO_SHOW_THAT_IT_GOES_OFF_THE_SCREEN_FOR_VIS_EDITOR1,
+        test1,
+        test2,
     from source
 )
 
