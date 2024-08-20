@@ -8,10 +8,4 @@ The events in this table are recorded by [Snowplow](http://github.com/snowplow/s
  - /team
  - /contact-us
 
- **strong**
-
- ---
-
- --- teststring
-
 {% enddocs %}
