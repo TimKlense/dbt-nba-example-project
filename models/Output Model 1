@@ -1,0 +1,88 @@
+WITH stg_common_player_info AS (
+  SELECT
+    *
+  FROM {{ ref('stg_common_player_info') }}
+), stg_draft_combine_stats AS (
+  SELECT
+    SEASON,
+    HEIGHT_WO_SHOES,
+    HEIGHT_WO_SHOES_FT_IN,
+    HEIGHT_W_SHOES,
+    HEIGHT_W_SHOES_FT_IN,
+    WEIGHT,
+    WINGSPAN,
+    WINGSPAN_FT_IN,
+    STANDING_REACH,
+    STANDING_REACH_FT_IN,
+    BODY_FAT_PCT,
+    HAND_LENGTH,
+    HAND_WIDTH,
+    STANDING_VERTICAL_LEAP,
+    MAX_VERTICAL_LEAP,
+    LANE_AGILITY_TIME,
+    MODIFIED_LANE_AGILITY_TIME,
+    THREE_QUARTER_SPRINT,
+    BENCH_PRESS,
+    SPOT_FIFTEEN_CORNER_LEFT,
+    SPOT_FIFTEEN_BREAK_LEFT,
+    SPOT_FIFTEEN_TOP_KEY,
+    SPOT_FIFTEEN_BREAK_RIGHT,
+    SPOT_FIFTEEN_CORNER_RIGHT,
+    SPOT_COLLEGE_CORNER_LEFT,
+    SPOT_COLLEGE_BREAK_LEFT,
+    SPOT_COLLEGE_TOP_KEY,
+    SPOT_COLLEGE_BREAK_RIGHT,
+    SPOT_COLLEGE_CORNER_RIGHT,
+    SPOT_NBA_CORNER_LEFT,
+    SPOT_NBA_BREAK_LEFT,
+    SPOT_NBA_TOP_KEY,
+    SPOT_NBA_BREAK_RIGHT,
+    SPOT_NBA_CORNER_RIGHT,
+    OFF_DRIB_FIFTEEN_BREAK_LEFT,
+    OFF_DRIB_FIFTEEN_TOP_KEY,
+    OFF_DRIB_FIFTEEN_BREAK_RIGHT,
+    OFF_DRIB_COLLEGE_BREAK_LEFT,
+    OFF_DRIB_COLLEGE_TOP_KEY,
+    OFF_DRIB_COLLEGE_BREAK_RIGHT,
+    ON_MOVE_FIFTEEN,
+    ON_MOVE_COLLEGE,
+    LAST_NAME,
+    PLAYER_ID
+  FROM {{ ref('stg_draft_combine_stats') }}
+), player_summary AS (
+  SELECT
+    PERSON_ID
+  FROM {{ ref('player_summary') }}
+), join_1 AS (
+  SELECT
+    stg_common_player_info.PERSON_ID
+  FROM stg_common_player_info
+  JOIN stg_draft_combine_stats
+    ON stg_common_player_info.PERSON_ID = stg_draft_combine_stats.PLAYER_ID
+), union_1 AS (
+  SELECT
+    *
+  FROM join_1
+  UNION ALL
+  SELECT
+    *
+  FROM player_summary
+), order_1 AS (
+  SELECT
+    *
+  FROM union_1
+  ORDER BY
+    PERSON_ID DESC
+), limit_a3e4 AS (
+  SELECT
+    *
+  FROM order_1
+  LIMIT 100
+), output_model_1 AS (
+  SELECT
+    *
+  FROM limit_a3e4
+)
+SELECT
+  *
+FROM output_model_1
