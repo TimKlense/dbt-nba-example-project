@@ -30,8 +30,15 @@ jobs:
 
       - name: Commit release notes
         run: |
+          echo "Current git status:"
+          git status
+          echo "Setting git config"
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          echo "Adding release notes file"
           git add RELEASE_NOTES.md
+          echo "Checking if there's a diff"
           git diff --cached --quiet || git commit -m "chore: update release notes [skip ci]"
+          echo "Pushing to GitHub"
           git push
+
