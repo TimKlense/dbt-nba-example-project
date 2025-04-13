@@ -1,10 +1,5 @@
-
 ## 🗓️ April 13, 2025 Release Notes
 
-### 🧭 Jump to
-- [🐛 Fix](#fix)
+### External Notes
 
-### 🐛 Fix
-- Fix schema.yml ([#8](https://github.com/TimKlense/dbt-nba-example-project/pull/8) • [diff](https://github.com/TimKlense/dbt-nba-example-project/pull/8.diff)) — @TimKlense
-
-
+### Internal Notes
