@@ -18,6 +18,11 @@ def fetch_recent_prs():
     since = (datetime.utcnow() - timedelta(days=1)).isoformat() + "Z"
     url = f"https://api.github.com/repos/{REPO}/pulls?state=closed&sort=updated&direction=desc&per_page=100"
     prs = requests.get(url, headers=HEADERS).json()
+    
+    print(f"Fetched {len(prs)} PRs")
+    for pr in prs:
+        print(f"PR #{pr['number']} merged_at: {pr['merged_at']}")
+        
     return [pr for pr in prs if pr["merged_at"] and pr["merged_at"] > since]
 
 def fetch_files(pr_number):
@@ -53,6 +58,9 @@ Respond in JSON:
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3
     )
+
+    print(f"OpenAI Response: {res}")
+    
     return eval(res.choices[0].message["content"])  # use `json.loads` in production
 
 def format_output(results):
