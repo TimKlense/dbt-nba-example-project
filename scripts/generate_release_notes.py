@@ -35,9 +35,9 @@ def build_notes(prs):
     categories = {"New": [], "Enhancement": [], "Fix": [], "Behavior change": []}
     for pr in prs:
         category = categorize(pr)
-        entry = f"- {pr['title']} ([#{pr['number']}]({pr['html_url']})) by @{pr['user']['login']}"
-        categories[category].append(entry)
+        categories[category].append(pr)
     return categories
+
 
 def format_notes(categories):
     today = datetime.utcnow().strftime("%B %d, %Y")
