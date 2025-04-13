@@ -41,13 +41,45 @@ def build_notes(prs):
 
 def format_notes(categories):
     today = datetime.utcnow().strftime("%B %d, %Y")
-    lines = [f"### {today} release notes...\n"]
-    for cat, items in categories.items():
-        if items:
-            lines.append(f"**{cat}:**")
-            lines.extend(items)
-            lines.append("")
-    return "\n".join(lines)
+    heading = f"## 🗓️ {today} Release Notes\n"
+
+    category_order = ["Behavior change", "New", "Enhancement", "Fix"]
+    category_emojis = {
+        "New": "✨",
+        "Enhancement": "⚡",
+        "Fix": "🐛",
+        "Behavior change": "🚨"
+    }
+
+    # Create Table of Contents
+    toc = ["### 🧭 Jump to"]
+    for cat in category_order:
+        if categories[cat]:
+            emoji = category_emojis.get(cat, "")
+            anchor = cat.lower().replace(" ", "-")
+            toc.append(f"- [{emoji} {cat}](#{anchor})")
+    toc.append("")
+
+    # Build section content
+    sections = []
+    for cat in category_order:
+        pr_list = categories[cat]
+        if not pr_list:
+            continue
+        emoji = category_emojis.get(cat, "")
+        sections.append(f"### {emoji} {cat}")
+        # Sort by PR number
+        sorted_prs = sorted(pr_list, key=lambda pr: pr["number"])
+        for pr in sorted_prs:
+            title = pr["title"]
+            number = pr["number"]
+            user = pr["user"]["login"]
+            html_url = pr["html_url"]
+            diff_url = f"{html_url}.diff"
+            sections.append(f"- {title} ([#{number}]({html_url}) • [diff]({diff_url})) — @{user}")
+        sections.append("")
+
+    return "\n".join([heading] + toc + sections)
 
 def write_to_file(text):
     with open("RELEASE_NOTES.md", "a") as f:
