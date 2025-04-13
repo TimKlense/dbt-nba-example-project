@@ -1,93 +1,98 @@
+import os
 import requests
 from datetime import datetime, timedelta
-import os
+import openai
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-REPO = os.getenv("GITHUB_REPO")  # e.g. "org/repo"
-SINCE = (datetime.utcnow() - timedelta(days=1)).isoformat() + "Z"
+REPO = os.environ["GITHUB_REPO"]
+TOKEN = os.environ["GITHUB_TOKEN"]
+OPENAI_KEY = os.environ["OPENAI_API_KEY"]
 
 HEADERS = {
-    "Authorization": f"token {GITHUB_TOKEN}",
+    "Authorization": f"Bearer {TOKEN}",
     "Accept": "application/vnd.github+json"
 }
 
-CATEGORY_KEYWORDS = {
-    "New": ["add", "create", "initial", "feature"],
-    "Enhancement": ["improve", "optimize", "enhance"],
-    "Fix": ["fix", "bug", "correct", "patch"],
-    "Behavior change": ["deprecate", "remove", "change", "default"]
-}
+openai.api_key = OPENAI_KEY
 
-def fetch_prs():
-    url = f"https://api.github.com/repos/{REPO}/pulls?state=closed&sort=updated&direction=desc"
-    response = requests.get(url, headers=HEADERS)
-    prs = response.json()
-    return [pr for pr in prs if pr["merged_at"] and pr["merged_at"] > SINCE]
+def fetch_recent_prs():
+    since = (datetime.utcnow() - timedelta(days=1)).isoformat() + "Z"
+    url = f"https://api.github.com/repos/{REPO}/pulls?state=closed&sort=updated&direction=desc&per_page=100"
+    prs = requests.get(url, headers=HEADERS).json()
+    return [pr for pr in prs if pr["merged_at"] and pr["merged_at"] > since]
 
-def categorize(pr):
-    title = pr["title"].lower()
-    for category, keywords in CATEGORY_KEYWORDS.items():
-        if any(kw in title for kw in keywords):
-            return category
-    return "Behavior change"
+def fetch_files(pr_number):
+    url = f"https://api.github.com/repos/{REPO}/pulls/{pr_number}/files"
+    return requests.get(url, headers=HEADERS).json()
 
-def build_notes(prs):
-    categories = {"New": [], "Enhancement": [], "Fix": [], "Behavior change": []}
-    for pr in prs:
-        category = categorize(pr)
-        categories[category].append(pr)
-    return categories
+def analyze_pr_with_gpt(pr, files):
+    file_list = [f['filename'] for f in files][:10]
+    prompt = f"""
+You are an assistant generating release notes.
 
+Analyze this pull request:
 
-def format_notes(categories):
+Title: {pr['title']}
+Description: {pr['body']}
+Files changed: {', '.join(file_list)}
+
+Instructions:
+- Summarize in one bullet point.
+- Classify into one of: New, Enhancement, Fix, Behavior change.
+- Decide if it is INTERNAL (for developers only) or EXTERNAL (safe for customers).
+- Keep it short, clear, and informative.
+
+Respond in JSON:
+{{
+  "summary": "...",
+  "category": "...",
+  "audience": "internal|external"
+}}
+"""
+    res = openai.ChatCompletion.create(
+        model="gpt-4",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.3
+    )
+    return eval(res.choices[0].message["content"])  # use `json.loads` in production
+
+def format_output(results):
     today = datetime.utcnow().strftime("%B %d, %Y")
-    heading = f"## 🗓️ {today} Release Notes\n"
+    out = [f"## 🗓️ {today} Release Notes\n"]
 
-    category_order = ["Behavior change", "New", "Enhancement", "Fix"]
-    category_emojis = {
-        "New": "✨",
-        "Enhancement": "⚡",
-        "Fix": "🐛",
-        "Behavior change": "🚨"
-    }
+    external = {}
+    internal = {}
 
-    # Create Table of Contents
-    toc = ["### 🧭 Jump to"]
-    for cat in category_order:
-        if categories[cat]:
-            emoji = category_emojis.get(cat, "")
-            anchor = cat.lower().replace(" ", "-")
-            toc.append(f"- [{emoji} {cat}](#{anchor})")
-    toc.append("")
+    for r in results:
+        target = external if r["audience"] == "external" else internal
+        target.setdefault(r["category"], []).append(r["summary"])
 
-    # Build section content
-    sections = []
-    for cat in category_order:
-        pr_list = categories[cat]
-        if not pr_list:
-            continue
-        emoji = category_emojis.get(cat, "")
-        sections.append(f"### {emoji} {cat}")
-        # Sort by PR number
-        sorted_prs = sorted(pr_list, key=lambda pr: pr["number"])
-        for pr in sorted_prs:
-            title = pr["title"]
-            number = pr["number"]
-            user = pr["user"]["login"]
-            html_url = pr["html_url"]
-            diff_url = f"{html_url}.diff"
-            sections.append(f"- {title} ([#{number}]({html_url}) • [diff]({diff_url})) — @{user}")
-        sections.append("")
+    def format_section(title, cat_map):
+        lines = [f"### {title}\n"]
+        for cat in ["New", "Enhancement", "Fix", "Behavior change"]:
+            if cat in cat_map:
+                lines.append(f"#### {cat}")
+                for line in cat_map[cat]:
+                    lines.append(f"- {line}")
+                lines.append("")
+        return lines
 
-    return "\n".join([heading] + toc + sections)
+    out += format_section("External Notes", external)
+    out += format_section("Internal Notes", internal)
 
-def write_to_file(text):
-    with open("RELEASE_NOTES.md", "a") as f:
-        f.write(text + "\n\n")
+    return "\n".join(out)
+
+def main():
+    prs = fetch_recent_prs()
+    results = []
+    for pr in prs:
+        files = fetch_files(pr["number"])
+        result = analyze_pr_with_gpt(pr, files)
+        print(f"PR #{pr['number']} categorized as {result['category']} ({result['audience']})")
+        results.append(result)
+
+    notes = format_output(results)
+    with open("RELEASE_NOTES.md", "w") as f:
+        f.write(notes)
 
 if __name__ == "__main__":
-    prs = fetch_prs()
-    categorized = build_notes(prs)
-    final_text = format_notes(categorized)
-    print(final_text)
-    write_to_file(final_text)
+    main()
