@@ -2,6 +2,11 @@ name: Generate Release Notes
 
 on:
   workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "How many hours to look back for merged PRs"
+        required: false
+        default: "24"
   schedule:
     - cron: "0 0 * * *"  # every day at midnight UTC
 
@@ -10,22 +15,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check if release notes generation is enabled (for scheduled runs)
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "${{ secrets.ENABLE_SCHEDULED_RELEASE_NOTES }}" != "true" ]; then
+            echo "❌ Scheduled release notes generation is disabled. Set ENABLE_SCHEDULED_RELEASE_NOTES=true to enable."
+            exit 0
+          fi
+
       - uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.13.3   # <- Updated to a more recent version
+          python-version: 3.13.3
           check-latest: false
           
       - name: Install dependencies
-        run: pip install openai requests
+        run: pip install openai requests python-dateutil
 
       - name: Generate release notes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPO: ${{ github.repository }} # could have it as... your-org/your-repo
+          GITHUB_REPO: ${{ github.repository }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LOOKBACK_HOURS: ${{ github.event.inputs.lookback_hours || '24' }}
         run: python scripts/generate_release_notes.py
 
       - name: Commit release notes
@@ -41,4 +55,3 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update release notes [skip ci]"
           echo "Pushing to GitHub"
           git push
-
