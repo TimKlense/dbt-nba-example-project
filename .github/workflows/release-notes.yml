@@ -8,31 +8,22 @@ on:
         required: false
         default: "24"
   schedule:
-    - cron: "0 0 * * *"  # every day at midnight UTC
+    - cron: "0 0 * * *"  # Daily at midnight UTC
 
 jobs:
   release_notes:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check if release notes generation is enabled (for scheduled runs)
-        if: github.event_name == 'schedule'
-        run: |
-          if [ "${{ secrets.ENABLE_SCHEDULED_RELEASE_NOTES }}" != "true" ]; then
-            echo "❌ Scheduled release notes generation is disabled. Set ENABLE_SCHEDULED_RELEASE_NOTES=true to enable."
-            exit 0
-          fi
-
       - uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.13.3
-          check-latest: false
-          
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install openai>=1.2.0 requests python-dateutil
 
       - name: Generate release notes
         env:
@@ -44,14 +35,8 @@ jobs:
 
       - name: Commit release notes
         run: |
-          echo "Current git status:"
-          git status
-          echo "Setting git config"
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          echo "Adding release notes file"
           git add RELEASE_NOTES.md
-          echo "Checking if there's a diff"
           git diff --cached --quiet || git commit -m "chore: update release notes [skip ci]"
-          echo "Pushing to GitHub"
           git push
