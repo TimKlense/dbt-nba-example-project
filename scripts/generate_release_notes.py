@@ -15,15 +15,22 @@ HEADERS = {
 openai.api_key = OPENAI_KEY
 
 def fetch_recent_prs():
-    since = (datetime.utcnow() - timedelta(days=1)).isoformat() + "Z"
-    url = f"https://api.github.com/repos/{REPO}/pulls?state=closed&sort=updated&direction=desc&per_page=100"
-    prs = requests.get(url, headers=HEADERS).json()
+    since = (datetime.utcnow() - timedelta(days=1)).isoformat()
+    query = f"repo:{REPO} is:pr is:merged merged:>={since}"
+    url = f"https://api.github.com/search/issues?q={query}&sort=updated&order=desc&per_page=100"
+    response = requests.get(url, headers=HEADERS).json()
+    items = response.get("items", [])
     
-    print(f"Fetched {len(prs)} PRs")
-    for pr in prs:
-        print(f"PR #{pr['number']} merged_at: {pr['merged_at']}")
-        
-    return [pr for pr in prs if pr["merged_at"] and pr["merged_at"] > since]
+    print(f"Fetched {len(items)} merged PRs since {since}")
+    
+    prs = []
+    for item in items:
+        pr_number = item["number"]
+        pr_url = f"https://api.github.com/repos/{REPO}/pulls/{pr_number}"
+        pr_data = requests.get(pr_url, headers=HEADERS).json()
+        prs.append(pr_data)
+
+    return prs
 
 def fetch_files(pr_number):
     url = f"https://api.github.com/repos/{REPO}/pulls/{pr_number}/files"
