@@ -1,3 +1,4 @@
+-- Fix description
 version: 2
 
 models:
@@ -10,7 +11,7 @@ models:
                 - unique
 
     - name: my_second_dbt_model
-      description: "A starter dbt model"
+      description: "A starter dbt model with a ref function"
       columns:
           - name: id
             description: "The primary key for this table"
