@@ -1,7 +1,7 @@
 import os
 import requests
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import openai
 
 REPO = os.environ["GITHUB_REPO"]
