@@ -1,7 +1,7 @@
 import os
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import timezone
 import openai
 
 REPO = os.environ["GITHUB_REPO"]
@@ -16,7 +16,7 @@ HEADERS = {
 openai.api_key = OPENAI_KEY
 
 def fetch_recent_prs():
-    since = (datetime.utcnow() - timedelta(days=1)).isoformat()
+    since = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
     print(f"Fetching merged PRs since {since}")
     
     query = f"repo:{REPO} is:pr is:merged merged:>={since}"
