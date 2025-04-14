@@ -1,13 +1,16 @@
 import os
 import requests
 import json
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 from dateutil.parser import parse as parse_date
 import openai
 
 REPO = os.environ["GITHUB_REPO"]
 TOKEN = os.environ["GITHUB_TOKEN"]
 OPENAI_KEY = os.environ["OPENAI_API_KEY"]
+
+# Optional env var to override lookback
+LOOKBACK_HOURS = int(os.getenv("LOOKBACK_HOURS", "0"))
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -24,28 +27,31 @@ def fetch_recent_prs():
             raise RuntimeError(f"GitHub API error: {prs['message']}")
         return [pr for pr in prs if pr.get("merged_at")]
 
-    def filter_recent(prs, since_time_iso):
-        since_dt = parse_date(since_time_iso)
+    def filter_recent(prs, since_dt):
         return [pr for pr in prs if parse_date(pr["merged_at"]) > since_dt]
 
-    for day_range in [1, 3]:
-        since = (datetime.now(timezone.utc) - timedelta(days=day_range)).isoformat()
-        print(f"\n🔍 Checking for merged PRs in the last {day_range} day(s) since {since}")
+    if LOOKBACK_HOURS > 0:
+        ranges = [LOOKBACK_HOURS / 24]
+    else:
+        ranges = [1, 3]
 
+    for days in ranges:
+        since_dt = datetime.now(timezone.utc) - timedelta(days=days)
+        print(f"\n🔍 Fetching merged PRs since {since_dt.isoformat()} (last {days:.1f} days)")
+        
         all_merged = get_prs()
-        print(f"ℹ️  Total merged PRs: {len(all_merged)}")
+        print(f"ℹ️  Found {len(all_merged)} merged PRs total (including older ones):")
         for pr in all_merged:
             print(f" - PR #{pr['number']} merged_at: {pr['merged_at']}")
 
-        recent_merged = filter_recent(all_merged, since)
+        recent_merged = filter_recent(all_merged, since_dt)
         if recent_merged:
-            recent_merged = sorted(recent_merged, key=lambda pr: pr["merged_at"])
             print(f"\n✅ {len(recent_merged)} recent PR(s) found.")
             return recent_merged
 
-        print(f"⚠️  No PRs found in the last {day_range} day(s).")
+        print(f"⚠️  No PRs found in the last {days:.1f} day(s). Trying a wider window...")
 
-    print("\n❌ No recent merged PRs found in fallback window.")
+    print("\n❌ No recent merged PRs found.")
     return []
 
 def fetch_files(pr_number):
@@ -91,7 +97,7 @@ Respond in JSON:
     try:
         return json.loads(raw_content)
     except json.JSONDecodeError:
-        print("❌ Failed to parse GPT response. Skipping this PR.")
+        print("⚠️ Failed to parse GPT response. Skipping this PR.")
         return {
             "summary": f"Could not analyze PR #{pr['number']}",
             "category": "Enhancement",
@@ -132,7 +138,7 @@ def main():
 
     results = []
     for pr in prs:
-        print(f"\n🧠 Analyzing PR #{pr['number']}: {pr['title']}")
+        print(f"Analyzing PR #{pr['number']}: {pr['title']}")
         files = fetch_files(pr["number"])
         result = analyze_pr_with_gpt(pr, files)
         results.append(result)
