@@ -1,5 +1,6 @@
 import os
 import requests
+import json
 from datetime import datetime, timedelta
 import openai
 
@@ -16,25 +17,34 @@ openai.api_key = OPENAI_KEY
 
 def fetch_recent_prs():
     since = (datetime.utcnow() - timedelta(days=1)).isoformat()
+    print(f"Fetching merged PRs since {since}")
+    
     query = f"repo:{REPO} is:pr is:merged merged:>={since}"
     url = f"https://api.github.com/search/issues?q={query}&sort=updated&order=desc&per_page=100"
-    response = requests.get(url, headers=HEADERS).json()
-    items = response.get("items", [])
-    
-    print(f"Fetched {len(items)} merged PRs since {since}")
-    
+
+    response = requests.get(url, headers=HEADERS)
+    response.raise_for_status()
+    data = response.json()
+    items = data.get("items", [])
+
+    print(f"Found {len(items)} merged PRs")
+
     prs = []
     for item in items:
         pr_number = item["number"]
         pr_url = f"https://api.github.com/repos/{REPO}/pulls/{pr_number}"
-        pr_data = requests.get(pr_url, headers=HEADERS).json()
+        pr_response = requests.get(pr_url, headers=HEADERS)
+        pr_response.raise_for_status()
+        pr_data = pr_response.json()
         prs.append(pr_data)
 
     return prs
 
 def fetch_files(pr_number):
     url = f"https://api.github.com/repos/{REPO}/pulls/{pr_number}/files"
-    return requests.get(url, headers=HEADERS).json()
+    response = requests.get(url, headers=HEADERS)
+    response.raise_for_status()
+    return response.json()
 
 def analyze_pr_with_gpt(pr, files):
     file_list = [f['filename'] for f in files][:10]
@@ -60,15 +70,25 @@ Respond in JSON:
   "audience": "internal|external"
 }}
 """
+
     res = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3
     )
 
-    print(f"OpenAI Response: {res}")
-    
-    return eval(res.choices[0].message["content"])  # use `json.loads` in production
+    raw_content = res.choices[0].message["content"]
+    print(f"GPT Response: {raw_content}")
+
+    try:
+        return json.loads(raw_content)
+    except json.JSONDecodeError:
+        print("Failed to parse GPT response. Skipping this PR.")
+        return {
+            "summary": f"Could not analyze PR #{pr['number']}",
+            "category": "Enhancement",
+            "audience": "internal"
+        }
 
 def format_output(results):
     today = datetime.utcnow().strftime("%B %d, %Y")
@@ -98,16 +118,21 @@ def format_output(results):
 
 def main():
     prs = fetch_recent_prs()
+    if not prs:
+        print("No recent merged PRs found.")
+        return
+
     results = []
     for pr in prs:
+        print(f"Analyzing PR #{pr['number']}: {pr['title']}")
         files = fetch_files(pr["number"])
         result = analyze_pr_with_gpt(pr, files)
-        print(f"PR #{pr['number']} categorized as {result['category']} ({result['audience']})")
         results.append(result)
 
     notes = format_output(results)
     with open("RELEASE_NOTES.md", "w") as f:
         f.write(notes)
+    print("Release notes written to RELEASE_NOTES.md")
 
 if __name__ == "__main__":
     main()
