@@ -24,7 +24,7 @@ jobs:
       - name: Generate release notes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPO: your-org/your-repo
+          GITHUB_REPO: ${{ github.repository }} # could have it as... your-org/your-repo
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/generate_release_notes.py
 
