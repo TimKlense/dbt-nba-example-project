@@ -3,56 +3,38 @@ import requests
 import json
 from datetime import datetime, timedelta, timezone
 from dateutil.parser import parse as parse_date
-import openai
+from openai import OpenAI
 
 REPO = os.environ["GITHUB_REPO"]
 TOKEN = os.environ["GITHUB_TOKEN"]
 OPENAI_KEY = os.environ["OPENAI_API_KEY"]
-
-# Optional env var to override lookback
-LOOKBACK_HOURS = int(os.getenv("LOOKBACK_HOURS", "0"))
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
     "Accept": "application/vnd.github+json"
 }
 
-openai.api_key = OPENAI_KEY
+client = OpenAI(api_key=OPENAI_KEY)
 
-def fetch_recent_prs():
-    def get_prs():
-        url = f"https://api.github.com/repos/{REPO}/pulls?state=closed&sort=updated&direction=desc&per_page=100"
-        prs = requests.get(url, headers=HEADERS).json()
-        if isinstance(prs, dict) and prs.get("message"):
-            raise RuntimeError(f"GitHub API error: {prs['message']}")
-        return [pr for pr in prs if pr.get("merged_at")]
+def fetch_recent_prs(hours=24):
+    cutoff_time = datetime.now(timezone.utc) - timedelta(hours=hours)
+    url = f"https://api.github.com/repos/{REPO}/pulls?state=closed&sort=updated&direction=desc&per_page=100"
+    response = requests.get(url, headers=HEADERS)
+    prs = response.json()
 
-    def filter_recent(prs, since_dt):
-        return [pr for pr in prs if parse_date(pr["merged_at"]) > since_dt]
+    if isinstance(prs, dict) and prs.get("message"):
+        raise RuntimeError(f"GitHub API error: {prs['message']}")
 
-    if LOOKBACK_HOURS > 0:
-        ranges = [LOOKBACK_HOURS / 24]
-    else:
-        ranges = [1, 3]
+    merged_prs = []
+    for pr in prs:
+        merged_at = pr.get("merged_at")
+        if merged_at:
+            merged_time = parse_date(merged_at)
+            if merged_time > cutoff_time:
+                merged_prs.append(pr)
 
-    for days in ranges:
-        since_dt = datetime.now(timezone.utc) - timedelta(days=days)
-        print(f"\n🔍 Fetching merged PRs since {since_dt.isoformat()} (last {days:.1f} days)")
-        
-        all_merged = get_prs()
-        print(f"ℹ️  Found {len(all_merged)} merged PRs total (including older ones):")
-        for pr in all_merged:
-            print(f" - PR #{pr['number']} merged_at: {pr['merged_at']}")
-
-        recent_merged = filter_recent(all_merged, since_dt)
-        if recent_merged:
-            print(f"\n✅ {len(recent_merged)} recent PR(s) found.")
-            return recent_merged
-
-        print(f"⚠️  No PRs found in the last {days:.1f} day(s). Trying a wider window...")
-
-    print("\n❌ No recent merged PRs found.")
-    return []
+    print(f"⏱️ Looking back {hours} hours. Found {len(merged_prs)} recently merged PRs.")
+    return merged_prs
 
 def fetch_files(pr_number):
     url = f"https://api.github.com/repos/{REPO}/pulls/{pr_number}/files"
@@ -85,19 +67,19 @@ Respond in JSON:
 }}
 """
 
-    res = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-4",
         messages=[{"role": "user", "content": prompt}],
-        temperature=0.3
+        temperature=0.3,
     )
 
-    raw_content = res.choices[0].message["content"]
-    print(f"GPT Response: {raw_content}")
+    content = response.choices[0].message.content
+    print(f"🔍 GPT Output: {content}")
 
     try:
-        return json.loads(raw_content)
+        return json.loads(content)
     except json.JSONDecodeError:
-        print("⚠️ Failed to parse GPT response. Skipping this PR.")
+        print("⚠️ Failed to parse GPT response. Skipping.")
         return {
             "summary": f"Could not analyze PR #{pr['number']}",
             "category": "Enhancement",
@@ -105,7 +87,7 @@ Respond in JSON:
         }
 
 def format_output(results):
-    today = datetime.utcnow().strftime("%B %d, %Y")
+    today = datetime.now(timezone.utc).strftime("%B %d, %Y")
     out = [f"## 🗓️ {today} Release Notes\n"]
 
     external = {}
@@ -127,18 +109,18 @@ def format_output(results):
 
     out += format_section("External Notes", external)
     out += format_section("Internal Notes", internal)
-
     return "\n".join(out)
 
 def main():
-    prs = fetch_recent_prs()
+    hours = int(os.getenv("LOOKBACK_HOURS", "24"))  # Default 24 hours
+    prs = fetch_recent_prs(hours)
     if not prs:
-        print("No recent merged PRs found.")
+        print("🚫 No PRs found in the given lookback window.")
         return
 
     results = []
     for pr in prs:
-        print(f"Analyzing PR #{pr['number']}: {pr['title']}")
+        print(f"🔍 Analyzing PR #{pr['number']}: {pr['title']}")
         files = fetch_files(pr["number"])
         result = analyze_pr_with_gpt(pr, files)
         results.append(result)
