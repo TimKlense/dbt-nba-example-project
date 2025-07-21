@@ -1,0 +1,42 @@
+name: Generate Release Notes
+
+on:
+  workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "How many hours to look back for merged PRs"
+        required: false
+        default: "24"
+  schedule:
+    - cron: "0 0 * * *"  # Daily at midnight UTC
+
+jobs:
+  release_notes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.13.3
+
+      - name: Install dependencies
+        run: pip install openai>=1.2.0 requests python-dateutil
+
+      - name: Generate release notes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LOOKBACK_HOURS: ${{ github.event.inputs.lookback_hours || '24' }}
+        run: python scripts/generate_release_notes.py
+
+      - name: Commit release notes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add RELEASE_NOTES.md
+          git diff --cached --quiet || git commit -m "chore: update release notes [skip ci]"
+          git push
